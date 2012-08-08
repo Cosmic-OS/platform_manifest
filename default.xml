@@ -21,7 +21,7 @@
   <project name="device/samsung/tuna"/>
   <project name="device/ti/panda"/>
   <project name="kernel/lk" path="bootable/bootloader/lk" revision="refs/heads/master"/>
-  <project name="kernel/msm" path="kernel" revision="refs/heads/jb_rel"/>
+  <project name="kernel/msm" path="kernel" revision="refs/heads/msm-3.4"/>
   <project name="platform/abi/cpp" path="abi/cpp"/>
   <project name="platform/bionic" path="bionic"/>
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy"/>
@@ -212,8 +212,9 @@
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
   <project name="platform/hardware/msm7k" path="hardware/msm7k"/>
   <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
-  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="refs/heads/jb_rel"/>
+  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
+  <project name="platform/hardware/qcom/gestures" path="hardware/qcom/gestures"/>
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
@@ -261,6 +262,7 @@
   <project name="platform/packages/apps/Tag" path="packages/apps/Tag"/>
   <project name="platform/packages/apps/VideoEditor" path="packages/apps/VideoEditor"/>
   <project name="platform/packages/apps/VoiceDialer" path="packages/apps/VoiceDialer"/>
+  <project name="platform/packages/apps/gestures" path="packages/apps/gestures"/>
   <project name="platform/packages/experimental" path="packages/experimental"/>
   <project name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME"/>
   <project name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn"/>
@@ -314,8 +316,10 @@
   <project name="platform/system/qcom" path="system/qcom" revision="refs/heads/master"/>
   <project name="platform/system/security" path="system/security"/>
   <project name="platform/system/vold" path="system/vold"/>
+  <project name="platform/vendor/qcom-opensource/bt-wlan-coex" path="vendor/qcom/opensource/bt-wlan-coex" revision="refs/heads/master"/>
   <project name="platform/vendor/qcom-opensource/testframework" path="vendor/qcom/opensource/testframework" revision="refs/heads/master"/>
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" revision="refs/heads/master"/>
+  <project name="platform/vendor/qcom/copper" path="device/qcom/msm8974"/>
   <project name="platform/vendor/qcom/msm7627a" path="device/qcom/msm7627a"/>
   <project name="platform/vendor/qcom/msm7630_surf" path="device/qcom/msm7630_surf"/>
   <project name="platform/vendor/qcom/msm8660_surf" path="device/qcom/msm8660_surf"/>
