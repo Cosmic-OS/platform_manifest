@@ -1,6 +1,6 @@
 <manifest>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
-  <default remote="caf" revision="ics_strawberry"/>
+  <default remote="caf" revision="ics"/>
   <project name="device/common"/>
   <project name="device/generic/goldfish"/>
   <project name="device/google/accessory/arduino"/>
@@ -257,9 +257,11 @@
   <project name="platform/vendor/qcom-opensource/bt-wlan-coex" path="vendor/qcom/opensource/bt-wlan-coex"/>
   <project name="platform/vendor/qcom-opensource/diag" path="vendor/qcom/opensource/diag"/>
   <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="vendor/qcom/opensource/kernel-tests/mm-audio"/>
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="vendor/qcom/opensource/kernel/kernel-tests"/>
   <project name="platform/vendor/qcom-opensource/omx/mm-audio" path="vendor/qcom/opensource/omx/mm-audio"/>
   <project name="platform/vendor/qcom-opensource/omx/mm-core" path="vendor/qcom/opensource/omx/mm-core"/>
   <project name="platform/vendor/qcom-opensource/omx/mm-video" path="vendor/qcom/opensource/omx/mm-video"/>
+  <project name="platform/vendor/qcom-opensource/testframework" path="vendor/qcom/opensource/testframework"/>
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
   <project name="platform/vendor/qcom-opensource/v8" path="vendor/qcom/opensource/v8"/>
   <project name="platform/vendor/qcom-opensource/webkit" path="vendor/qcom/opensource/webkit"/>
