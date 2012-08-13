@@ -1,6 +1,6 @@
 <manifest>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
-  <default remote="caf" revision="jb_rel"/>
+  <default remote="caf" revision="jb_chocolate_rb1.1"/>
   <project name="device/asus/grouper"/>
   <project name="device/common"/>
   <project name="device/generic/armv7-a"/>
@@ -21,7 +21,7 @@
   <project name="device/samsung/tuna"/>
   <project name="device/ti/panda"/>
   <project name="kernel/lk" path="bootable/bootloader/lk"/>
-  <project name="kernel/msm" path="kernel" revision="refs/heads/jb_chocolate"/>
+  <project name="kernel/msm" path="kernel"/>
   <project name="platform/abi/cpp" path="abi/cpp"/>
   <project name="platform/bionic" path="bionic"/>
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy"/>
@@ -151,7 +151,7 @@
   <project name="platform/external/protobuf" path="external/protobuf"/>
   <project name="platform/external/qemu" path="external/qemu"/>
   <project name="platform/external/qemu-pc-bios" path="external/qemu-pc-bios"/>
-  <project name="platform/external/qrngd" path="external/qrngd" revision="refs/heads/jb_chocolate"/>
+  <project name="platform/external/qrngd" path="external/qrngd"/>
   <project name="platform/external/quake" path="external/quake"/>
   <project name="platform/external/regex-re2" path="external/regex-re2"/>
   <project name="platform/external/replicaisland" path="external/replicaisland"/>
@@ -209,8 +209,8 @@
   <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
   <project name="platform/hardware/msm7k" path="hardware/msm7k"/>
-  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="refs/heads/jb_chocolate"/>
-  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="refs/heads/jb_chocolate"/>
+  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
+  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
@@ -313,6 +313,7 @@
   <project name="platform/system/security" path="system/security"/>
   <project name="platform/system/vold" path="system/vold"/>
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
-  <project name="platform/vendor/qcom/msm8660_surf" path="device/qcom/msm8660_surf" revision="refs/heads/jb_chocolate"/>
+  <project name="platform/vendor/qcom/msm7627a" path="device/qcom/msm7627a"/>
+  <project name="platform/vendor/qcom/msm8660_surf" path="device/qcom/msm8660_surf"/>
   <project name="platform/vendor/qcom/msm8960" path="device/qcom/msm8960"/>
 </manifest>
