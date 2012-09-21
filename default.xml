@@ -1,6 +1,6 @@
 <manifest>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
-  <default remote="caf" revision="ics_strawberry"/>
+  <default remote="caf" revision="ics_chocolate"/>
   <project name="device/common"/>
   <project name="device/generic/goldfish"/>
   <project name="device/google/accessory/arduino"/>
@@ -44,7 +44,6 @@
   <project name="platform/external/chromium" path="external/chromium"/>
   <project name="platform/external/clang" path="external/clang"/>
   <project name="platform/external/collada" path="external/collada"/>
-  <project name="platform/external/compat-wireless" path="external/compat-wireless"/>
   <project name="platform/external/connectivity" path="external/connectivity"/>
   <project name="platform/external/curl" path="external/curl"/>
   <project name="platform/external/dbus" path="external/dbus"/>
@@ -87,7 +86,6 @@
   <project name="platform/external/jsr305" path="external/jsr305"/>
   <project name="platform/external/junit" path="external/junit"/>
   <project name="platform/external/kernel-headers" path="external/kernel-headers"/>
-  <project name="platform/external/kissfft" path="external/kissfft"/>
   <project name="platform/external/libffi" path="external/libffi"/>
   <project name="platform/external/libgsm" path="external/libgsm"/>
   <project name="platform/external/liblzf" path="external/liblzf"/>
@@ -104,16 +102,15 @@
   <project name="platform/external/markdown" path="external/markdown"/>
   <project name="platform/external/mesa3d" path="external/mesa3d"/>
   <project name="platform/external/mksh" path="external/mksh"/>
-  <project name="platform/external/mobicore" path="external/mobicore"/>
   <project name="platform/external/mockwebserver" path="external/mockwebserver"/>
   <project name="platform/external/mtpd" path="external/mtpd"/>
   <project name="platform/external/netcat" path="external/netcat"/>
   <project name="platform/external/netperf" path="external/netperf"/>
   <project name="platform/external/neven" path="external/neven"/>
   <project name="platform/external/nist-sip" path="external/nist-sip"/>
-  <project name="platform/external/node" path="external/node/nodejs"/>
-  <project name="platform/external/node-sqlite-async" path="external/node/modules/sqlite-async"/>
-  <project name="platform/external/node-sqlite-sync" path="external/node/modules/sqlite-sync"/>
+  <project name="platform/external/node" path="external/node"/>
+  <project name="platform/external/node-sqlite-async" path="external/node-sqlite-async"/>
+  <project name="platform/external/node-sqlite-sync" path="external/node-sqlite-sync"/>
   <project name="platform/external/oauth" path="external/oauth"/>
   <project name="platform/external/opencv" path="external/opencv"/>
   <project name="platform/external/openssl" path="external/openssl"/>
@@ -127,7 +124,6 @@
   <project name="platform/external/protobuf" path="external/protobuf"/>
   <project name="platform/external/qemu" path="external/qemu"/>
   <project name="platform/external/qemu-pc-bios" path="external/qemu-pc-bios"/>
-  <project name="platform/external/qrngd" path="external/qrngd"/>
   <project name="platform/external/quake" path="external/quake"/>
   <project name="platform/external/replicaisland" path="external/replicaisland"/>
   <project name="platform/external/safe-iop" path="external/safe-iop"/>
@@ -177,7 +173,6 @@
   <project name="platform/hardware/msm7k" path="hardware/msm7k"/>
   <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
-  <project name="platform/hardware/qcom/gestures" path="hardware/qcom/gestures"/>
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project name="platform/hardware/ril" path="hardware/ril"/>
@@ -222,7 +217,6 @@
   <project name="platform/packages/apps/Tag" path="packages/apps/Tag"/>
   <project name="platform/packages/apps/VideoEditor" path="packages/apps/VideoEditor"/>
   <project name="platform/packages/apps/VoiceDialer" path="packages/apps/VoiceDialer"/>
-  <project name="platform/packages/apps/gestures" path="packages/apps/gestures"/>
   <project name="platform/packages/experimental" path="packages/experimental"/>
   <project name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME"/>
   <project name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn"/>
