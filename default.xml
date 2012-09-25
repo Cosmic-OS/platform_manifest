@@ -1,6 +1,6 @@
 <manifest>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
-  <default remote="caf" revision="jb_2.2"/>
+  <default remote="caf" revision="jb_rel"/>
   <project name="device/asus/grouper"/>
   <project name="device/common"/>
   <project name="device/generic/armv7-a"/>
@@ -148,7 +148,7 @@
   <project name="platform/external/oprofile" path="external/oprofile"/>
   <project name="platform/external/ping" path="external/ping"/>
   <project name="platform/external/ping6" path="external/ping6"/>
-  <project name="platform/external/powertop" path="external/powertop"/>
+  <project name="platform/external/powertop" path="external/powertop" revision="refs/heads/master"/>
   <project name="platform/external/ppp" path="external/ppp"/>
   <project name="platform/external/proguard" path="external/proguard"/>
   <project name="platform/external/protobuf" path="external/protobuf"/>
@@ -157,7 +157,6 @@
   <project name="platform/external/qrngd" path="external/qrngd"/>
   <project name="platform/external/quake" path="external/quake"/>
   <project name="platform/external/regex-re2" path="external/regex-re2"/>
-  <project name="platform/external/remo_ti" path="external/remo_ti"/>
   <project name="platform/external/replicaisland" path="external/replicaisland"/>
   <project name="platform/external/safe-iop" path="external/safe-iop"/>
   <project name="platform/external/sepolicy" path="external/sepolicy"/>
@@ -216,7 +215,6 @@
   <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
   <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
-  <project name="platform/hardware/qcom/gestures" path="hardware/qcom/gestures"/>
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
@@ -264,7 +262,6 @@
   <project name="platform/packages/apps/Tag" path="packages/apps/Tag"/>
   <project name="platform/packages/apps/VideoEditor" path="packages/apps/VideoEditor"/>
   <project name="platform/packages/apps/VoiceDialer" path="packages/apps/VoiceDialer"/>
-  <project name="platform/packages/apps/gestures" path="packages/apps/gestures"/>
   <project name="platform/packages/experimental" path="packages/experimental"/>
   <project name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME"/>
   <project name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn"/>
@@ -319,14 +316,12 @@
   <project name="platform/system/security" path="system/security"/>
   <project name="platform/system/vold" path="system/vold"/>
   <project name="platform/vendor/qcom-opensource/bt-wlan-coex" path="vendor/qcom/opensource/bt-wlan-coex"/>
-  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="vendor/qcom/opensource/kernel-tests"/>
   <project name="platform/vendor/qcom-opensource/testframework" path="vendor/qcom/opensource/testframework"/>
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
-  <project name="platform/vendor/qcom-opensource/v8" path="vendor/qcom/opensource/v8"/>
-  <project name="platform/vendor/qcom/copper" path="device/qcom/msm8974"/>
-  <project name="platform/vendor/qcom/mpq8064" path="device/qcom/mpq8064"/>
+  <project name="platform/vendor/qcom-opensource/v8" path="vendor/qcom/opensource/v8" revision="refs/heads/jb_rel"/>
   <project name="platform/vendor/qcom/msm7627a" path="device/qcom/msm7627a"/>
   <project name="platform/vendor/qcom/msm7630_surf" path="device/qcom/msm7630_surf"/>
+  <project name="platform/vendor/qcom/msm8625" path="device/qcom/msm8625"/>
   <project name="platform/vendor/qcom/msm8660_surf" path="device/qcom/msm8660_surf"/>
   <project name="platform/vendor/qcom/msm8960" path="device/qcom/msm8960"/>
 </manifest>
