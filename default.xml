@@ -1,6 +1,6 @@
 <manifest>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
-  <default remote="caf" revision="jb_rel"/>
+  <default remote="caf" revision="jb"/>
   <project name="device/asus/grouper"/>
   <project name="device/common"/>
   <project name="device/generic/armv7-a"/>
@@ -20,8 +20,8 @@
   <project name="device/samsung/torospr"/>
   <project name="device/samsung/tuna"/>
   <project name="device/ti/panda"/>
-  <project name="kernel/lk" path="bootable/bootloader/lk"/>
-  <project name="kernel/msm" path="kernel"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="refs/heads/master"/>
+  <project name="kernel/msm" path="kernel" revision="refs/heads/msm-3.4"/>
   <project name="platform/abi/cpp" path="abi/cpp"/>
   <project name="platform/bionic" path="bionic"/>
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy"/>
@@ -35,8 +35,8 @@
   <project name="platform/development" path="development"/>
   <project name="platform/docs/source.android.com" path="docs/source.android.com"/>
   <project name="platform/external/aac" path="external/aac"/>
-  <project name="platform/external/alljoyn/alljoyn_core" path="external/alljoyn/alljoyn_core"/>
-  <project name="platform/external/alljoyn/common" path="external/alljoyn/common"/>
+  <project name="platform/external/alljoyn/alljoyn_core" path="external/alljoyn/alljoyn_core" revision="refs/heads/master"/>
+  <project name="platform/external/alljoyn/common" path="external/alljoyn/common" revision="refs/heads/master"/>
   <project name="platform/external/android-mock" path="external/android-mock"/>
   <project name="platform/external/antlr" path="external/antlr"/>
   <project name="platform/external/apache-harmony" path="external/apache-harmony"/>
@@ -57,10 +57,10 @@
   <project name="platform/external/chromium-trace" path="external/chromium-trace"/>
   <project name="platform/external/cibu-fonts" path="external/cibu-fonts"/>
   <project name="platform/external/clang" path="external/clang"/>
-  <project name="platform/external/compat-wireless" path="external/compat-wireless"/>
+  <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="refs/heads/master"/>
   <project name="platform/external/compiler-rt" path="external/compiler-rt"/>
-  <project name="platform/external/connectivity" path="external/connectivity"/>
-  <project name="platform/external/curl" path="external/curl"/>
+  <project name="platform/external/connectivity" path="external/connectivity" revision="refs/heads/master"/>
+  <project name="platform/external/curl" path="external/curl" revision="refs/heads/master"/>
   <project name="platform/external/dbus" path="external/dbus"/>
   <project name="platform/external/dexmaker" path="external/dexmaker"/>
   <project name="platform/external/dhcpcd" path="external/dhcpcd"/>
@@ -107,6 +107,7 @@
   <project name="platform/external/jsr305" path="external/jsr305"/>
   <project name="platform/external/junit" path="external/junit"/>
   <project name="platform/external/kernel-headers" path="external/kernel-headers"/>
+  <project name="platform/external/kissfft" path="external/kissfft"/>
   <project name="platform/external/libffi" path="external/libffi"/>
   <project name="platform/external/libgsm" path="external/libgsm"/>
   <project name="platform/external/liblzf" path="external/liblzf"/>
@@ -152,11 +153,13 @@
   <project name="platform/external/ppp" path="external/ppp"/>
   <project name="platform/external/proguard" path="external/proguard"/>
   <project name="platform/external/protobuf" path="external/protobuf"/>
+  <project name="platform/external/protobuf-c" path="external/protobuf-c"/>
   <project name="platform/external/qemu" path="external/qemu"/>
   <project name="platform/external/qemu-pc-bios" path="external/qemu-pc-bios"/>
   <project name="platform/external/qrngd" path="external/qrngd"/>
   <project name="platform/external/quake" path="external/quake"/>
   <project name="platform/external/regex-re2" path="external/regex-re2"/>
+  <project name="platform/external/remo_ti" path="external/remo_ti"/>
   <project name="platform/external/replicaisland" path="external/replicaisland"/>
   <project name="platform/external/safe-iop" path="external/safe-iop"/>
   <project name="platform/external/sepolicy" path="external/sepolicy"/>
@@ -215,6 +218,7 @@
   <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
   <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
+  <project name="platform/hardware/qcom/gestures" path="hardware/qcom/gestures"/>
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
@@ -238,7 +242,7 @@
   <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock"/>
   <project name="platform/packages/apps/Email" path="packages/apps/Email"/>
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange"/>
-  <project name="platform/packages/apps/FM" path="packages/apps/FM"/>
+  <project name="platform/packages/apps/FM" path="packages/apps/FM" revision="refs/heads/master"/>
   <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery"/>
   <project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2"/>
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer"/>
@@ -262,6 +266,7 @@
   <project name="platform/packages/apps/Tag" path="packages/apps/Tag"/>
   <project name="platform/packages/apps/VideoEditor" path="packages/apps/VideoEditor"/>
   <project name="platform/packages/apps/VoiceDialer" path="packages/apps/VoiceDialer"/>
+  <project name="platform/packages/apps/gestures" path="packages/apps/gestures"/>
   <project name="platform/packages/experimental" path="packages/experimental"/>
   <project name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME"/>
   <project name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn"/>
@@ -312,16 +317,18 @@
   <project name="platform/system/extras" path="system/extras"/>
   <project name="platform/system/media" path="system/media"/>
   <project name="platform/system/netd" path="system/netd"/>
-  <project name="platform/system/qcom" path="system/qcom"/>
+  <project name="platform/system/qcom" path="system/qcom" revision="refs/heads/master"/>
   <project name="platform/system/security" path="system/security"/>
   <project name="platform/system/vold" path="system/vold"/>
-  <project name="platform/vendor/qcom-opensource/bt-wlan-coex" path="vendor/qcom/opensource/bt-wlan-coex"/>
-  <project name="platform/vendor/qcom-opensource/testframework" path="vendor/qcom/opensource/testframework"/>
-  <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
-  <project name="platform/vendor/qcom-opensource/v8" path="vendor/qcom/opensource/v8" revision="refs/heads/jb_rel"/>
+  <project name="platform/vendor/qcom-opensource/bt-wlan-coex" path="vendor/qcom/opensource/bt-wlan-coex" revision="refs/heads/master"/>
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="vendor/qcom/opensource/kernel-tests" revision="refs/heads/master"/>
+  <project name="platform/vendor/qcom-opensource/testframework" path="vendor/qcom/opensource/testframework" revision="refs/heads/master"/>
+  <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" revision="refs/heads/master"/>
+  <project name="platform/vendor/qcom-opensource/v8" path="vendor/qcom/opensource/v8" revision="refs/heads/v8-2.0"/>
+  <project name="platform/vendor/qcom/copper" path="device/qcom/msm8974"/>
+  <project name="platform/vendor/qcom/mpq8064" path="device/qcom/mpq8064"/>
   <project name="platform/vendor/qcom/msm7627a" path="device/qcom/msm7627a"/>
   <project name="platform/vendor/qcom/msm7630_surf" path="device/qcom/msm7630_surf"/>
-  <project name="platform/vendor/qcom/msm8625" path="device/qcom/msm8625"/>
   <project name="platform/vendor/qcom/msm8660_surf" path="device/qcom/msm8660_surf"/>
   <project name="platform/vendor/qcom/msm8960" path="device/qcom/msm8960"/>
 </manifest>
