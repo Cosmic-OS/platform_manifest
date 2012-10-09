@@ -1,6 +1,6 @@
 <manifest>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
-  <default remote="caf" revision="jb_rel_rb1.2"/>
+  <default remote="caf" revision="jb_rel"/>
   <project groups="default" name="device/asus/grouper"/>
   <project groups="default" name="device/common"/>
   <project groups="default" name="device/generic/armv7-a"/>
@@ -150,7 +150,7 @@
   <project groups="default" name="platform/external/oprofile" path="external/oprofile"/>
   <project groups="default" name="platform/external/ping" path="external/ping"/>
   <project groups="default" name="platform/external/ping6" path="external/ping6"/>
-  <project groups="default" name="platform/external/powertop" path="external/powertop"/>
+  <project groups="default" name="platform/external/powertop" path="external/powertop" revision="refs/heads/master"/>
   <project groups="default" name="platform/external/ppp" path="external/ppp"/>
   <project groups="default" name="platform/external/proguard" path="external/proguard"/>
   <project groups="default" name="platform/external/protobuf" path="external/protobuf"/>
@@ -320,7 +320,7 @@
   <project groups="default" name="platform/vendor/qcom-opensource/bt-wlan-coex" path="vendor/qcom/opensource/bt-wlan-coex"/>
   <project groups="default" name="platform/vendor/qcom-opensource/testframework" path="vendor/qcom/opensource/testframework"/>
   <project groups="default" name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
-  <project groups="default" name="platform/vendor/qcom-opensource/v8" path="vendor/qcom/opensource/v8"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/v8" path="vendor/qcom/opensource/v8" revision="refs/heads/jb_rel"/>
   <project groups="default" name="platform/vendor/qcom/msm7627a" path="device/qcom/msm7627a"/>
   <project groups="default" name="platform/vendor/qcom/msm7630_surf" path="device/qcom/msm7630_surf"/>
   <project groups="default" name="platform/vendor/qcom/msm8625" path="device/qcom/msm8625"/>
