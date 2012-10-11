@@ -1,6 +1,6 @@
 <manifest>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
-  <default remote="caf" revision="ics_strawberry_rb5.3"/>
+  <default remote="caf" revision="ics_strawberry"/>
   <project groups="default" name="device/common"/>
   <project groups="default" name="device/generic/goldfish"/>
   <project groups="default" name="device/google/accessory/arduino"/>
