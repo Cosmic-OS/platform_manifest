@@ -1,6 +1,6 @@
 <manifest>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
-  <default remote="caf" revision="jb_2.2"/>
+  <default remote="caf" revision="jb"/>
   <project groups="default" name="device/asus/grouper"/>
   <project groups="default" name="device/common"/>
   <project groups="default" name="device/generic/armv7-a"/>
@@ -11,7 +11,9 @@
   <project groups="default" name="device/moto/common"/>
   <project groups="default" name="device/moto/stingray"/>
   <project groups="default" name="device/moto/wingray"/>
-  <project groups="default" name="device/qcom/common"/>
+  <project groups="default" name="device/qcom/common">
+    <copyfile dest="build.sh" src="build.sh"/>
+  </project>
   <project groups="default" name="device/sample"/>
   <project groups="default" name="device/samsung/crespo"/>
   <project groups="default" name="device/samsung/crespo4g"/>
@@ -20,8 +22,8 @@
   <project groups="default" name="device/samsung/torospr"/>
   <project groups="default" name="device/samsung/tuna"/>
   <project groups="default" name="device/ti/panda"/>
-  <project groups="default" name="kernel/lk" path="bootable/bootloader/lk"/>
-  <project groups="default" name="kernel/msm" path="kernel"/>
+  <project groups="default" name="kernel/lk" path="bootable/bootloader/lk" revision="refs/heads/master"/>
+  <project groups="default" name="kernel/msm" path="kernel" revision="refs/heads/msm-3.4"/>
   <project groups="default" name="platform/abi/cpp" path="abi/cpp"/>
   <project groups="default" name="platform/bionic" path="bionic"/>
   <project groups="default" name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy"/>
@@ -35,8 +37,8 @@
   <project groups="default" name="platform/development" path="development"/>
   <project groups="default" name="platform/docs/source.android.com" path="docs/source.android.com"/>
   <project groups="default" name="platform/external/aac" path="external/aac"/>
-  <project groups="default" name="platform/external/alljoyn/alljoyn_core" path="external/alljoyn/alljoyn_core"/>
-  <project groups="default" name="platform/external/alljoyn/common" path="external/alljoyn/common"/>
+  <project groups="default" name="platform/external/alljoyn/alljoyn_core" path="external/alljoyn/alljoyn_core" revision="refs/heads/master"/>
+  <project groups="default" name="platform/external/alljoyn/common" path="external/alljoyn/common" revision="refs/heads/master"/>
   <project groups="default" name="platform/external/android-mock" path="external/android-mock"/>
   <project groups="default" name="platform/external/antlr" path="external/antlr"/>
   <project groups="default" name="platform/external/apache-harmony" path="external/apache-harmony"/>
@@ -57,10 +59,10 @@
   <project groups="default" name="platform/external/chromium-trace" path="external/chromium-trace"/>
   <project groups="default" name="platform/external/cibu-fonts" path="external/cibu-fonts"/>
   <project groups="default" name="platform/external/clang" path="external/clang"/>
-  <project groups="default" name="platform/external/compat-wireless" path="external/compat-wireless"/>
+  <project groups="default" name="platform/external/compat-wireless" path="external/compat-wireless" revision="refs/heads/master"/>
   <project groups="default" name="platform/external/compiler-rt" path="external/compiler-rt"/>
-  <project groups="default" name="platform/external/connectivity" path="external/connectivity"/>
-  <project groups="default" name="platform/external/curl" path="external/curl"/>
+  <project groups="default" name="platform/external/connectivity" path="external/connectivity" revision="refs/heads/master"/>
+  <project groups="default" name="platform/external/curl" path="external/curl" revision="refs/heads/master"/>
   <project groups="default" name="platform/external/dbus" path="external/dbus"/>
   <project groups="default" name="platform/external/dexmaker" path="external/dexmaker"/>
   <project groups="default" name="platform/external/dhcpcd" path="external/dhcpcd"/>
@@ -107,6 +109,7 @@
   <project groups="default" name="platform/external/jsr305" path="external/jsr305"/>
   <project groups="default" name="platform/external/junit" path="external/junit"/>
   <project groups="default" name="platform/external/kernel-headers" path="external/kernel-headers"/>
+  <project groups="default" name="platform/external/kissfft" path="external/kissfft"/>
   <project groups="default" name="platform/external/libffi" path="external/libffi"/>
   <project groups="default" name="platform/external/libgsm" path="external/libgsm"/>
   <project groups="default" name="platform/external/liblzf" path="external/liblzf"/>
@@ -148,7 +151,7 @@
   <project groups="default" name="platform/external/oprofile" path="external/oprofile"/>
   <project groups="default" name="platform/external/ping" path="external/ping"/>
   <project groups="default" name="platform/external/ping6" path="external/ping6"/>
-  <project groups="default" name="platform/external/powertop" path="external/powertop"/>
+  <project groups="default" name="platform/external/powertop" path="external/powertop" revision="refs/heads/master"/>
   <project groups="default" name="platform/external/ppp" path="external/ppp"/>
   <project groups="default" name="platform/external/proguard" path="external/proguard"/>
   <project groups="default" name="platform/external/protobuf" path="external/protobuf"/>
@@ -241,7 +244,7 @@
   <project groups="default" name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock"/>
   <project groups="default" name="platform/packages/apps/Email" path="packages/apps/Email"/>
   <project groups="default" name="platform/packages/apps/Exchange" path="packages/apps/Exchange"/>
-  <project groups="default" name="platform/packages/apps/FM" path="packages/apps/FM"/>
+  <project groups="default" name="platform/packages/apps/FM" path="packages/apps/FM" revision="refs/heads/master"/>
   <project groups="default" name="platform/packages/apps/Gallery" path="packages/apps/Gallery"/>
   <project groups="default" name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2"/>
   <project groups="default" name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer"/>
@@ -316,14 +319,14 @@
   <project groups="default" name="platform/system/extras" path="system/extras"/>
   <project groups="default" name="platform/system/media" path="system/media"/>
   <project groups="default" name="platform/system/netd" path="system/netd"/>
-  <project groups="default" name="platform/system/qcom" path="system/qcom"/>
+  <project groups="default" name="platform/system/qcom" path="system/qcom" revision="refs/heads/master"/>
   <project groups="default" name="platform/system/security" path="system/security"/>
   <project groups="default" name="platform/system/vold" path="system/vold"/>
-  <project groups="default" name="platform/vendor/qcom-opensource/bt-wlan-coex" path="vendor/qcom/opensource/bt-wlan-coex"/>
-  <project groups="default" name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="vendor/qcom/opensource/kernel-tests"/>
-  <project groups="default" name="platform/vendor/qcom-opensource/testframework" path="vendor/qcom/opensource/testframework"/>
-  <project groups="default" name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
-  <project groups="default" name="platform/vendor/qcom-opensource/v8" path="vendor/qcom/opensource/v8"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/bt-wlan-coex" path="vendor/qcom/opensource/bt-wlan-coex" revision="refs/heads/master"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="vendor/qcom/opensource/kernel-tests" revision="refs/heads/master"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/testframework" path="vendor/qcom/opensource/testframework" revision="refs/heads/master"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" revision="refs/heads/master"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/v8" path="vendor/qcom/opensource/v8" revision="refs/heads/v8-2.0"/>
   <project groups="default" name="platform/vendor/qcom/copper" path="device/qcom/msm8974"/>
   <project groups="default" name="platform/vendor/qcom/mpq8064" path="device/qcom/mpq8064"/>
   <project groups="default" name="platform/vendor/qcom/msm7627a" path="device/qcom/msm7627a"/>
