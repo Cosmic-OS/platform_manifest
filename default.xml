@@ -1,6 +1,6 @@
 <manifest>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
-  <default remote="caf" revision="jb_2.2"/>
+  <default remote="caf" revision="jb_2.2_rb2.3"/>
   <project groups="default" name="device/asus/grouper"/>
   <project groups="default" name="device/common"/>
   <project groups="default" name="device/generic/armv7-a"/>
