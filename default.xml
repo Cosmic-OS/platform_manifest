@@ -1,6 +1,6 @@
 <manifest>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
-  <default remote="caf" revision="jb_2.2_rb2.3"/>
+  <default remote="caf" revision="jb_2.2_rb2_2.1"/>
   <project groups="default" name="device/asus/grouper"/>
   <project groups="default" name="device/common"/>
   <project groups="default" name="device/generic/armv7-a"/>
@@ -215,7 +215,7 @@
   <project groups="default" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
   <project groups="default" name="platform/hardware/msm7k" path="hardware/msm7k"/>
   <project groups="default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
-  <project groups="default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="refs/heads/jb_2.2.0.1.1"/>
+  <project groups="default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
   <project groups="default" name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
   <project groups="default" name="platform/hardware/qcom/gestures" path="hardware/qcom/gestures"/>
   <project groups="default" name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
@@ -234,7 +234,7 @@
   <project groups="default" name="platform/packages/apps/Browser" path="packages/apps/Browser"/>
   <project groups="default" name="platform/packages/apps/Calculator" path="packages/apps/Calculator"/>
   <project groups="default" name="platform/packages/apps/Calendar" path="packages/apps/Calendar"/>
-  <project groups="default" name="platform/packages/apps/Camera" path="packages/apps/Camera" revision="refs/heads/jb_2.2.0.1.1"/>
+  <project groups="default" name="platform/packages/apps/Camera" path="packages/apps/Camera"/>
   <project groups="default" name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver"/>
   <project groups="default" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller"/>
   <project groups="default" name="platform/packages/apps/Contacts" path="packages/apps/Contacts"/>
