@@ -1,6 +1,6 @@
 <manifest>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
-  <default remote="caf" revision="jb_2.2_rb2.3"/>
+  <default remote="caf" revision="jb_rb1.10"/>
   <project groups="default" name="device/asus/grouper"/>
   <project groups="default" name="device/common"/>
   <project groups="default" name="device/generic/armv7-a"/>
@@ -11,7 +11,9 @@
   <project groups="default" name="device/moto/common"/>
   <project groups="default" name="device/moto/stingray"/>
   <project groups="default" name="device/moto/wingray"/>
-  <project groups="default" name="device/qcom/common"/>
+  <project groups="default" name="device/qcom/common">
+    <copyfile dest="build.sh" src="build.sh"/>
+  </project>
   <project groups="default" name="device/sample"/>
   <project groups="default" name="device/samsung/crespo"/>
   <project groups="default" name="device/samsung/crespo4g"/>
@@ -107,6 +109,7 @@
   <project groups="default" name="platform/external/jsr305" path="external/jsr305"/>
   <project groups="default" name="platform/external/junit" path="external/junit"/>
   <project groups="default" name="platform/external/kernel-headers" path="external/kernel-headers"/>
+  <project groups="default" name="platform/external/kissfft" path="external/kissfft"/>
   <project groups="default" name="platform/external/libffi" path="external/libffi"/>
   <project groups="default" name="platform/external/libgsm" path="external/libgsm"/>
   <project groups="default" name="platform/external/liblzf" path="external/liblzf"/>
@@ -219,6 +222,7 @@
   <project groups="default" name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
   <project groups="default" name="platform/hardware/qcom/gestures" path="hardware/qcom/gestures"/>
   <project groups="default" name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
+  <project groups="default" name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster"/>
   <project groups="default" name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project groups="default" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project groups="default" name="platform/hardware/ril" path="hardware/ril"/>
