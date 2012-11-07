@@ -1,6 +1,6 @@
 <manifest>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
-  <default remote="caf" revision="jb_chocolate_rb3.1"/>
+  <default remote="caf" revision="jb_rel_rb4.2"/>
   <project groups="default" name="device/asus/grouper"/>
   <project groups="default" name="device/common"/>
   <project groups="default" name="device/generic/armv7-a"/>
@@ -57,6 +57,7 @@
   <project groups="default" name="platform/external/chromium-trace" path="external/chromium-trace"/>
   <project groups="default" name="platform/external/cibu-fonts" path="external/cibu-fonts"/>
   <project groups="default" name="platform/external/clang" path="external/clang"/>
+  <project groups="default" name="platform/external/compat-wireless" path="external/compat-wireless"/>
   <project groups="default" name="platform/external/compiler-rt" path="external/compiler-rt"/>
   <project groups="default" name="platform/external/connectivity" path="external/connectivity"/>
   <project groups="default" name="platform/external/curl" path="external/curl"/>
@@ -131,6 +132,7 @@
   <project groups="default" name="platform/external/mdnsresponder" path="external/mdnsresponder"/>
   <project groups="default" name="platform/external/mesa3d" path="external/mesa3d"/>
   <project groups="default" name="platform/external/mksh" path="external/mksh"/>
+  <project groups="default" name="platform/external/mobicore" path="external/mobicore"/>
   <project groups="default" name="platform/external/mockwebserver" path="external/mockwebserver"/>
   <project groups="default" name="platform/external/mtpd" path="external/mtpd"/>
   <project groups="default" name="platform/external/naver-fonts" path="external/naver-fonts"/>
@@ -146,6 +148,7 @@
   <project groups="default" name="platform/external/oprofile" path="external/oprofile"/>
   <project groups="default" name="platform/external/ping" path="external/ping"/>
   <project groups="default" name="platform/external/ping6" path="external/ping6"/>
+  <project groups="default" name="platform/external/powertop" path="external/powertop"/>
   <project groups="default" name="platform/external/ppp" path="external/ppp"/>
   <project groups="default" name="platform/external/proguard" path="external/proguard"/>
   <project groups="default" name="platform/external/protobuf" path="external/protobuf"/>
@@ -312,10 +315,13 @@
   <project groups="default" name="platform/system/qcom" path="system/qcom"/>
   <project groups="default" name="platform/system/security" path="system/security"/>
   <project groups="default" name="platform/system/vold" path="system/vold"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/bt-wlan-coex" path="vendor/qcom/opensource/bt-wlan-coex"/>
   <project groups="default" name="platform/vendor/qcom-opensource/testframework" path="vendor/qcom/opensource/testframework"/>
   <project groups="default" name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
   <project groups="default" name="platform/vendor/qcom-opensource/v8" path="vendor/qcom/opensource/v8"/>
   <project groups="default" name="platform/vendor/qcom/msm7627a" path="device/qcom/msm7627a"/>
+  <project groups="default" name="platform/vendor/qcom/msm7630_surf" path="device/qcom/msm7630_surf"/>
+  <project groups="default" name="platform/vendor/qcom/msm8625" path="device/qcom/msm8625"/>
   <project groups="default" name="platform/vendor/qcom/msm8660_surf" path="device/qcom/msm8660_surf"/>
   <project groups="default" name="platform/vendor/qcom/msm8960" path="device/qcom/msm8960"/>
 </manifest>
