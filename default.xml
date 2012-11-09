@@ -1,6 +1,6 @@
 <manifest>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
-  <default remote="caf" revision="jb_rel_rb1.2"/>
+  <default remote="caf" revision="jb_rel_rb4.2"/>
   <project groups="default" name="device/asus/grouper"/>
   <project groups="default" name="device/common"/>
   <project groups="default" name="device/generic/armv7-a"/>
@@ -11,9 +11,7 @@
   <project groups="default" name="device/moto/common"/>
   <project groups="default" name="device/moto/stingray"/>
   <project groups="default" name="device/moto/wingray"/>
-  <project groups="default" name="device/qcom/common">
-    <copyfile dest="build.sh" src="build.sh"/>
-  </project>
+  <project groups="default" name="device/qcom/common"/>
   <project groups="default" name="device/sample"/>
   <project groups="default" name="device/samsung/crespo"/>
   <project groups="default" name="device/samsung/crespo4g"/>
