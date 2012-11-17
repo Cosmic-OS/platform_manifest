@@ -1,6 +1,6 @@
 <manifest>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
-  <default remote="caf" revision="jb_rel_rb4.2"/>
+  <default remote="caf" revision="jb_rb1.12"/>
   <project groups="default" name="device/asus/grouper"/>
   <project groups="default" name="device/common"/>
   <project groups="default" name="device/generic/armv7-a"/>
@@ -11,7 +11,9 @@
   <project groups="default" name="device/moto/common"/>
   <project groups="default" name="device/moto/stingray"/>
   <project groups="default" name="device/moto/wingray"/>
-  <project groups="default" name="device/qcom/common"/>
+  <project groups="default" name="device/qcom/common">
+    <copyfile dest="build.sh" src="build.sh"/>
+  </project>
   <project groups="default" name="device/sample"/>
   <project groups="default" name="device/samsung/crespo"/>
   <project groups="default" name="device/samsung/crespo4g"/>
@@ -56,6 +58,7 @@
   <project groups="default" name="platform/external/chromium" path="external/chromium"/>
   <project groups="default" name="platform/external/chromium-trace" path="external/chromium-trace"/>
   <project groups="default" name="platform/external/cibu-fonts" path="external/cibu-fonts"/>
+  <project groups="default" name="platform/external/cimax" path="external/cimax"/>
   <project groups="default" name="platform/external/clang" path="external/clang"/>
   <project groups="default" name="platform/external/compat-wireless" path="external/compat-wireless"/>
   <project groups="default" name="platform/external/compiler-rt" path="external/compiler-rt"/>
@@ -107,6 +110,7 @@
   <project groups="default" name="platform/external/jsr305" path="external/jsr305"/>
   <project groups="default" name="platform/external/junit" path="external/junit"/>
   <project groups="default" name="platform/external/kernel-headers" path="external/kernel-headers"/>
+  <project groups="default" name="platform/external/kissfft" path="external/kissfft"/>
   <project groups="default" name="platform/external/libffi" path="external/libffi"/>
   <project groups="default" name="platform/external/libgsm" path="external/libgsm"/>
   <project groups="default" name="platform/external/liblzf" path="external/liblzf"/>
@@ -140,6 +144,8 @@
   <project groups="default" name="platform/external/netperf" path="external/netperf"/>
   <project groups="default" name="platform/external/neven" path="external/neven"/>
   <project groups="default" name="platform/external/nist-sip" path="external/nist-sip"/>
+  <project groups="default" name="platform/external/node" path="external/node/nodejs"/>
+  <project groups="default" name="platform/external/node-sqlite-sync" path="external/node/modules/sqlite-sync"/>
   <project groups="default" name="platform/external/oauth" path="external/oauth"/>
   <project groups="default" name="platform/external/opencv" path="external/opencv"/>
   <project groups="default" name="platform/external/openfst" path="external/openfst"/>
@@ -152,11 +158,13 @@
   <project groups="default" name="platform/external/ppp" path="external/ppp"/>
   <project groups="default" name="platform/external/proguard" path="external/proguard"/>
   <project groups="default" name="platform/external/protobuf" path="external/protobuf"/>
+  <project groups="default" name="platform/external/protobuf-c" path="external/protobuf-c"/>
   <project groups="default" name="platform/external/qemu" path="external/qemu"/>
   <project groups="default" name="platform/external/qemu-pc-bios" path="external/qemu-pc-bios"/>
   <project groups="default" name="platform/external/qrngd" path="external/qrngd"/>
   <project groups="default" name="platform/external/quake" path="external/quake"/>
   <project groups="default" name="platform/external/regex-re2" path="external/regex-re2"/>
+  <project groups="default" name="platform/external/remo_ti" path="external/remo_ti"/>
   <project groups="default" name="platform/external/replicaisland" path="external/replicaisland"/>
   <project groups="default" name="platform/external/safe-iop" path="external/safe-iop"/>
   <project groups="default" name="platform/external/sepolicy" path="external/sepolicy"/>
@@ -215,7 +223,9 @@
   <project groups="default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
   <project groups="default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
   <project groups="default" name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
+  <project groups="default" name="platform/hardware/qcom/gestures" path="hardware/qcom/gestures"/>
   <project groups="default" name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
+  <project groups="default" name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster"/>
   <project groups="default" name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project groups="default" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project groups="default" name="platform/hardware/ril" path="hardware/ril"/>
@@ -262,6 +272,7 @@
   <project groups="default" name="platform/packages/apps/Tag" path="packages/apps/Tag"/>
   <project groups="default" name="platform/packages/apps/VideoEditor" path="packages/apps/VideoEditor"/>
   <project groups="default" name="platform/packages/apps/VoiceDialer" path="packages/apps/VoiceDialer"/>
+  <project groups="default" name="platform/packages/apps/gestures" path="packages/apps/gestures"/>
   <project groups="default" name="platform/packages/experimental" path="packages/experimental"/>
   <project groups="default" name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME"/>
   <project groups="default" name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn"/>
@@ -316,12 +327,16 @@
   <project groups="default" name="platform/system/security" path="system/security"/>
   <project groups="default" name="platform/system/vold" path="system/vold"/>
   <project groups="default" name="platform/vendor/qcom-opensource/bt-wlan-coex" path="vendor/qcom/opensource/bt-wlan-coex"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="vendor/qcom/opensource/kernel-tests"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/stm-log" path="vendor/qcom/opensource/stm-log"/>
   <project groups="default" name="platform/vendor/qcom-opensource/testframework" path="vendor/qcom/opensource/testframework"/>
   <project groups="default" name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
   <project groups="default" name="platform/vendor/qcom-opensource/v8" path="vendor/qcom/opensource/v8"/>
+  <project groups="default" name="platform/vendor/qcom/copper" path="device/qcom/msm8974"/>
+  <project groups="default" name="platform/vendor/qcom/mpq8064" path="device/qcom/mpq8064"/>
   <project groups="default" name="platform/vendor/qcom/msm7627a" path="device/qcom/msm7627a"/>
   <project groups="default" name="platform/vendor/qcom/msm7630_surf" path="device/qcom/msm7630_surf"/>
-  <project groups="default" name="platform/vendor/qcom/msm8625" path="device/qcom/msm8625"/>
   <project groups="default" name="platform/vendor/qcom/msm8660_surf" path="device/qcom/msm8660_surf"/>
+  <project groups="default" name="platform/vendor/qcom/msm8910" path="device/qcom/msm8910"/>
   <project groups="default" name="platform/vendor/qcom/msm8960" path="device/qcom/msm8960"/>
 </manifest>
