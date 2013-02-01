@@ -12,7 +12,7 @@
   <project groups="default" name="device/moto/common" revision="88f2f2b4fcf01b3e3a2d9dcaf6e03449865ea251"/>
   <project groups="default" name="device/moto/stingray" revision="f76699a312ccf62a1b267f64dcbfa880c17a0123"/>
   <project groups="default" name="device/moto/wingray" revision="5ab9378c65dd32b55106a9127e8be1b90c7d5519"/>
-  <project groups="default" name="device/qcom/common" revision="3ec2ae860d13f8f8d04a65352b8adf0051d8199d"/>
+  <project groups="default" name="device/qcom/common" revision="cc247eb8cf45e3f4d56d5b457142b5bf14c4680c"/>
   <project groups="default" name="device/sample" revision="f036071aa92009d493af7bb39a615e6fc13113b0"/>
   <project groups="default" name="device/samsung/crespo" revision="f00a12c52e3f622479a382db324fc396b9451cdd"/>
   <project groups="default" name="device/samsung/crespo4g" revision="8bf7738807402be85dc8a10f9ee12c42b3beeb71"/>
@@ -22,9 +22,9 @@
   <project groups="default" name="device/samsung/tuna" revision="2d5ccd14e8763e08fe17d976d98f7b67faf9bde6"/>
   <project groups="default" name="device/ti/panda" revision="4e8d47e422a475fbb11805b9e5f9a116835eb927"/>
   <project groups="default" name="kernel/lk" path="bootable/bootloader/lk" revision="cce919183df23ec5542dd602fc2a5dead43e08af"/>
-  <project groups="default" name="kernel/msm" path="kernel" revision="bfd2cb3220fe427a8a001ce0e3cfcad9ddb08ab3"/>
+  <project groups="default" name="kernel/msm" path="kernel" revision="9e8cbbf3c5fc59f46c39cab587c825be013ebcc3"/>
   <project groups="default" name="platform/abi/cpp" path="abi/cpp" revision="eb789ea833d8d800662b67914d9c1785a58c2caa"/>
-  <project groups="default" name="platform/bionic" path="bionic" revision="c8f78f07f2d1c521fa782231858b04ab153ce7f4"/>
+  <project groups="default" name="platform/bionic" path="bionic" revision="719d457d93a3a66656f196c5cb4013722336bbb1"/>
   <project groups="default" name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="b1fde5cd7d5158b8e6876139ca76a341d0e49708"/>
   <project groups="default" name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="d2a0ffa065dbb98e9acbf873dff5eb129bf2be71"/>
   <project groups="default" name="platform/bootable/recovery" path="bootable/recovery" revision="e46c890ce39ff1147bff676f740b57f29bd5c508"/>
@@ -32,7 +32,7 @@
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project groups="default" name="platform/cts" path="cts" revision="27dd6d68a999e26a7e211e9fd05a645c36766925"/>
-  <project groups="default" name="platform/dalvik" path="dalvik" revision="305aa7c85e7fa4265f7421ba3247c5b9c8e6932d"/>
+  <project groups="default" name="platform/dalvik" path="dalvik" revision="917752b8b55d3b650c622ccc00d615baf4992015"/>
   <project groups="default" name="platform/development" path="development" revision="b97a0e3ef84ea7fa871f08a5c98057772b10407f"/>
   <project groups="default" name="platform/docs/source.android.com" path="docs/source.android.com" revision="37c652c518349acbb900d0a222b85ac2315eb9c0"/>
   <project groups="default" name="platform/external/aac" path="external/aac" revision="5053a0e9487001cccd5eddb5d98c07de34854514"/>
@@ -46,7 +46,7 @@
   <project groups="default" name="platform/external/astl" path="external/astl" revision="0a397b4802b88af52c30e0f866929c70ef7e121b"/>
   <project groups="default" name="platform/external/bison" path="external/bison" revision="4af3c477523bc96a5a535500a722cd563f1d486f"/>
   <project groups="default" name="platform/external/blktrace" path="external/blktrace" revision="55236cdbcee4e543d69e2c25dbf27c62301d760a"/>
-  <project groups="default" name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="bde51063155d50c70c32612fd7f2c596f10997cb"/>
+  <project groups="default" name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="04a38079d40750552126f483b23292cff0cb0617"/>
   <project groups="default" name="platform/external/bluetooth/glib" path="external/bluetooth/glib" revision="d6a3d46e47d56cbfe4b526880b4a5c342460a478"/>
   <project groups="default" name="platform/external/bluetooth/hcidump" path="external/bluetooth/hcidump" revision="a9f2070a74ce01b48a27677f220ed2f229822df8"/>
   <project groups="default" name="platform/external/bouncycastle" path="external/bouncycastle" revision="e3f63ea2fab0bd839e9be02982d7811190a9f4ff"/>
@@ -54,13 +54,13 @@
   <project groups="default" name="platform/external/bson" path="external/bson" revision="ad6fc5dbb5f4369e08f7543b1517c225281900c0"/>
   <project groups="default" name="platform/external/bzip2" path="external/bzip2" revision="414a94a045a359ab76fa22feaee883180a9b2779"/>
   <project groups="default" name="platform/external/checkpolicy" path="external/checkpolicy" revision="a6834194069d4dd2f5883b57a0783b97def7e9ab"/>
-  <project groups="default" name="platform/external/chromium" path="external/chromium" revision="34b241bbb531d1f0d707be111d1e4e25a1d59355"/>
+  <project groups="default" name="platform/external/chromium" path="external/chromium" revision="f05b3dddf1b0e2bbb6336fefdc74c73165fb2267"/>
   <project groups="default" name="platform/external/chromium-trace" path="external/chromium-trace" revision="1f5d4e97822266b682a8a599b532b3b6460f9e3f"/>
   <project groups="default" name="platform/external/cibu-fonts" path="external/cibu-fonts" revision="04031024425e067f6b0fdc40def6e04516c31c4f"/>
   <project groups="default" name="platform/external/clang" path="external/clang" revision="9ae10ff970d0e78b9bf9cd9d5479b3bc88a5d76d"/>
-  <project groups="default" name="platform/external/compat-wireless" path="external/compat-wireless" revision="07b20cd8812c4b4977c437c6c904ca0eff5b5470"/>
+  <project groups="default" name="platform/external/compat-wireless" path="external/compat-wireless" revision="c7d5df13cc9d081abe5b43dce6944c985abb0fdb"/>
   <project groups="default" name="platform/external/compiler-rt" path="external/compiler-rt" revision="da993f9e5fd8753b4d592da9f840af2bf7ab96b0"/>
-  <project groups="default" name="platform/external/connectivity" path="external/connectivity" revision="99e7c8e18f067ee69c1319f20d1cc0fb1d885783"/>
+  <project groups="default" name="platform/external/connectivity" path="external/connectivity" revision="a2e9f7c1b0df64cd771aa513b64437fb2dcf0f1d"/>
   <project groups="default" name="platform/external/curl" path="external/curl" revision="e68addd988448959ea8157c5de637346b4180c33"/>
   <project groups="default" name="platform/external/dbus" path="external/dbus" revision="c308407d068f7f0dd08bf785eead2df0cba93e56"/>
   <project groups="default" name="platform/external/dexmaker" path="external/dexmaker" revision="0e7f90b4c24ed30ae5cf65bb1a6ff1dc7c105cb8"/>
@@ -107,7 +107,7 @@
   <project groups="default" name="platform/external/jsilver" path="external/jsilver" revision="a618b151d54625078424bc5940f6bfd63344d11b"/>
   <project groups="default" name="platform/external/jsr305" path="external/jsr305" revision="5c7719ffff2b6b6acfde07b0e41c08224f443a7b"/>
   <project groups="default" name="platform/external/junit" path="external/junit" revision="c62242988737e0204e6b01312faeda3b9a2b64cd"/>
-  <project groups="default" name="platform/external/kernel-headers" path="external/kernel-headers" revision="fb79aaeadc656a854f3ba378b64743880873c9ba"/>
+  <project groups="default" name="platform/external/kernel-headers" path="external/kernel-headers" revision="414593f78370f4d80504d10049b67ef3ee37185d"/>
   <project groups="default" name="platform/external/libffi" path="external/libffi" revision="5dea54fd57265ce037ac94055b9f94a45558b39e"/>
   <project groups="default" name="platform/external/libgsm" path="external/libgsm" revision="5e4516958690b9a1b2c98f88eeecba3edd2dbda4"/>
   <project groups="default" name="platform/external/liblzf" path="external/liblzf" revision="6946aa575b0949d045722794850896099d937cbb"/>
@@ -149,13 +149,13 @@
   <project groups="default" name="platform/external/oprofile" path="external/oprofile" revision="6b018bb81cda1d39632d258b2e2583df394a2c67"/>
   <project groups="default" name="platform/external/ping" path="external/ping" revision="e9640ed4c9c4441b512fd17344b8ca7ab507c176"/>
   <project groups="default" name="platform/external/ping6" path="external/ping6" revision="3386ab79451e089de04ee0b3eec58d03dfa0c67f"/>
-  <project groups="default" name="platform/external/powertop" path="external/powertop" revision="1e2c884c9779fe5717830966b615a7221243c1ac"/>
+  <project groups="default" name="platform/external/powertop" path="external/powertop" revision="fac7c9460c458987d871263efcd68adc21c570c5"/>
   <project groups="default" name="platform/external/ppp" path="external/ppp" revision="ab377ba41c51981a0fa4d5aaf350fe4ca540a610"/>
   <project groups="default" name="platform/external/proguard" path="external/proguard" revision="d345cf04b8fb2734c33577060162053523c6a697"/>
   <project groups="default" name="platform/external/protobuf" path="external/protobuf" revision="e217977611c52bccde7f7c78e1d3c790c6357431"/>
   <project groups="default" name="platform/external/qemu" path="external/qemu" revision="89bf55e02b63299a8de02f822c1f0a2711048817"/>
   <project groups="default" name="platform/external/qemu-pc-bios" path="external/qemu-pc-bios" revision="20349dae98d7de09a7e390d4a706c64f1db6edc2"/>
-  <project groups="default" name="platform/external/qrngd" path="external/qrngd" revision="6b04a774064928a1e9b36d6c5449e1623a2b59c4"/>
+  <project groups="default" name="platform/external/qrngd" path="external/qrngd" revision="0083474afa3f1731bda263c0939768d19110d7b6"/>
   <project groups="default" name="platform/external/quake" path="external/quake" revision="3a8615dddb462ae2ab51f864ebdfa846907537cd"/>
   <project groups="default" name="platform/external/regex-re2" path="external/regex-re2" revision="2ee91b4af4353b9e6a9d591c32fedfc58fd4ef35"/>
   <project groups="default" name="platform/external/replicaisland" path="external/replicaisland" revision="800662a3696ccd22a7d9d33cb2a5ee198df2c6cd"/>
@@ -183,21 +183,21 @@
   <project groups="default" name="platform/external/webp" path="external/webp" revision="88fe2b83c4b9232cd08729556fd0485d6a6a92cd"/>
   <project groups="default" name="platform/external/webrtc" path="external/webrtc" revision="5870e071aabfbde0d570142acf440ab4dca97e04"/>
   <project groups="default" name="platform/external/wpa_supplicant_6" path="external/wpa_supplicant_6" revision="e384980bbfc1a028763d728716ecf960fe3bf440"/>
-  <project groups="default" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="e1b7044f23de0b9ba5c54ab23954f2ba663ce0ad"/>
+  <project groups="default" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="f3cf84d0a7f64561e2d9ab820327c119627ca119"/>
   <project groups="default" name="platform/external/xmlwriter" path="external/xmlwriter" revision="e95d92246ee35273dde2bee8b00485cc14c12be5"/>
   <project groups="default" name="platform/external/yaffs2" path="external/yaffs2" revision="e0ab7310f487163c2701281e2b44055a6231803f"/>
-  <project groups="default" name="platform/external/zlib" path="external/zlib" revision="e73bf0acf799eca6e5ab863c4635c6fe0396daae"/>
+  <project groups="default" name="platform/external/zlib" path="external/zlib" revision="d5f211ce4dd2b44c4084e1c936f1cb844ef6dab0"/>
   <project groups="default" name="platform/external/zxing" path="external/zxing" revision="7620644768ffc235607b3a94671e49518c18686f"/>
   <project groups="default" name="platform/frameworks/av" path="frameworks/av" revision="b45d2270ff949c2949322326341da27f80d46cd8"/>
-  <project groups="default" name="platform/frameworks/base" path="frameworks/base" revision="b58ccb6edbce005ef950fe62c0594df063431599"/>
-  <project groups="default" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="27222c659b2ba213b6f4403a20fdc13bb28c1fb6"/>
+  <project groups="default" name="platform/frameworks/base" path="frameworks/base" revision="0aa53b4d7da0fab5a679c2f3f1bc2cf98389958f"/>
+  <project groups="default" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="0e019c4969e77b947701f9ba70ceed35548577d8"/>
   <project groups="default" name="platform/frameworks/compile/linkloader" path="frameworks/compile/linkloader" revision="be67b5ab6c8f4358b47ad3601e3be716997f0c5e"/>
   <project groups="default" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="cec46b99b0207252a7d6e40e0748d8cd368a5d29"/>
   <project groups="default" name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="dd0fee9a461ff985d892bda9a1aaf7c0f47ef875"/>
   <project groups="default" name="platform/frameworks/ex" path="frameworks/ex" revision="3fc60c81dabab76c0617494dbbf016a2f2894c18"/>
   <project groups="default" name="platform/frameworks/mff" path="frameworks/mff" revision="b9669b8540a1e5c953374d53b115514335e23c27"/>
   <project groups="default" name="platform/frameworks/ml" path="frameworks/ml" revision="b019e89cbea221598c482b05ab68b7660b41aa23"/>
-  <project groups="default" name="platform/frameworks/native" path="frameworks/native" revision="f0bf4e6d5eef6e9dc0f8e4bab9bb579eb1160e72"/>
+  <project groups="default" name="platform/frameworks/native" path="frameworks/native" revision="1563c0968e9c7350ee656d1304d16c61bc2d7de6"/>
   <project groups="default" name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="46e001bc78b36235758dde896a0f5d3aa5c9c98b"/>
   <project groups="default" name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji" revision="0805d75d3c4319f54fb3c854be2f7baab561cf1b"/>
   <project groups="default" name="platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon" revision="df9dd39c2047992a43b64e13bb0fc348a1630f3b"/>
@@ -210,13 +210,13 @@
   <project groups="default" name="platform/gdk" path="gdk" revision="90dfd3839f9f755ee288e5d64fb2221d1512ea8d"/>
   <project groups="default" name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="9002fdbdf86753148dafcf910ad47fa0a1b85471"/>
   <project groups="default" name="platform/hardware/invensense" path="hardware/invensense" revision="8792ef0f74a024dec788de02f60280dd66f871f3"/>
-  <project groups="default" name="platform/hardware/libhardware" path="hardware/libhardware" revision="bdf4e46f5741358255f35f7e1616f6a50c999b12"/>
-  <project groups="default" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="f8b53a491cc8d5fc7978d88b54205e58a39cf556"/>
-  <project groups="default" name="platform/hardware/msm7k" path="hardware/msm7k" revision="af99ea609d4fa246ec0742b440e902d75c6ce388"/>
-  <project groups="default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="ec28b2b365cda53fc87b0eb78a75362ef5dad07e"/>
+  <project groups="default" name="platform/hardware/libhardware" path="hardware/libhardware" revision="58c35ee2e067a85577bc8f4bf01da8b52f7675f0"/>
+  <project groups="default" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="86d94562c89286e1896344ae880cd2941563cf4c"/>
+  <project groups="default" name="platform/hardware/msm7k" path="hardware/msm7k" revision="976ca80f92c7f8a54d208f306bcc52410e7f9843"/>
+  <project groups="default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="1a4de39cda36a26a8444f7bf38163d465b8f08e7"/>
   <project groups="default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="13e050bddafaf0665c938f41a69e74b8a802d3e5"/>
-  <project groups="default" name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="ad0456a777adafdabec5552240df4ee11379299b"/>
-  <project groups="default" name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="14267b9626fec9f96a5e37c86fac5d32c7af5a74"/>
+  <project groups="default" name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="59b2fef6a7fd5e9df7563ea79e5048a63e2c06d1"/>
+  <project groups="default" name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="f00adfa69120eede2d970584e13ca2fa2f881e99"/>
   <project groups="default" name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="d884d0801eff03cb56c35101c385f46c1fc49299"/>
   <project groups="default" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="a758c8818a9b99d0a138bfa5e63dbcc553c9f18e"/>
   <project groups="default" name="platform/hardware/ril" path="hardware/ril" revision="92ed08b498e85056668d6386d1eb5c839c140714"/>
@@ -228,14 +228,14 @@
   <project groups="default" name="platform/libnativehelper" path="libnativehelper" revision="73d3c2e3ed100f1d0ccc08a9675844bf8a0848fa"/>
   <project groups="default" name="platform/ndk" path="ndk" revision="4e4734233ef625509d1fd23542a7a7e646caa38c"/>
   <project groups="default" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="e2ff06099997d5674da50e273755db0abcd35750"/>
-  <project groups="default" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="a84f23d0b424f9587783ed7934e88fa975fd959b"/>
-  <project groups="default" name="platform/packages/apps/Browser" path="packages/apps/Browser" revision="bb53719769702e0ae26abeb5fb8368a8221eb99a"/>
+  <project groups="default" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="68b997b82322393c3774f232d9cabad264584dc3"/>
+  <project groups="default" name="platform/packages/apps/Browser" path="packages/apps/Browser" revision="024280d21fa2945661f584373d8172bd88c0e4f3"/>
   <project groups="default" name="platform/packages/apps/Calculator" path="packages/apps/Calculator" revision="786a7e446a0469e37b1f9677499fd212e9a2c28d"/>
   <project groups="default" name="platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="f6db5130eb123834f5a69ee93a877f815c2367d8"/>
-  <project groups="default" name="platform/packages/apps/Camera" path="packages/apps/Camera" revision="4e161f1ac76628a64d5d8865e33077d1b74c526d"/>
-  <project groups="default" name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="ce0cdb15ee2d8daec90094552ea22fc7df302a4f"/>
+  <project groups="default" name="platform/packages/apps/Camera" path="packages/apps/Camera" revision="aa91e140d9fdc32b2ddd170c97f32c40e46cb59d"/>
+  <project groups="default" name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="6711d1681d7eca155da2bb3dbfe5392da07b6058"/>
   <project groups="default" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="83df03c8f5d61d37e2fda501c67937f970b7af0c"/>
-  <project groups="default" name="platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="b900de87335e4d984ca4d8584d3a1c7eba640f8d"/>
+  <project groups="default" name="platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="7d2556c57fef778a8e9f03dfca0da0c6f5755fef"/>
   <project groups="default" name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="c2125cbd154a7352b08c7c1dacd266b6a406b977"/>
   <project groups="default" name="platform/packages/apps/Email" path="packages/apps/Email" revision="f7be0eaa8ed1f9f5aeb5c0f21583994487b3bb82"/>
   <project groups="default" name="platform/packages/apps/Exchange" path="packages/apps/Exchange" revision="df160ab0ee4605fcf6cef4a2a863fc7455d93ef7"/>
@@ -251,15 +251,15 @@
   <project groups="default" name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" revision="d9fc04055aed9130f02627a73414ee12865a473d"/>
   <project groups="default" name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="fd4b41a42a5b21acb11d4a78f9b0266841f9fd2c"/>
   <project groups="default" name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" revision="8c6cf864a36e1d93e057c2a28cbddbe720931197"/>
-  <project groups="default" name="platform/packages/apps/Phone" path="packages/apps/Phone" revision="203b3584fe840e2046e69a13602f62a292ef24d3"/>
+  <project groups="default" name="platform/packages/apps/Phone" path="packages/apps/Phone" revision="cf6082c236700dcd475f57c3cbed6b1e2de08772"/>
   <project groups="default" name="platform/packages/apps/Protips" path="packages/apps/Protips" revision="5bfea6920fd7ab44776c33104b0f55da3bb8835e"/>
   <project groups="default" name="platform/packages/apps/Provision" path="packages/apps/Provision" revision="86bf6d8ac38de74b1bead64ac26fe5130dfffbf5"/>
   <project groups="default" name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="4825a957126bead9a482a75856909487c26ce00d"/>
   <project groups="default" name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="e52b60ea70c7c239dfafc30d5ce3808862f8a198"/>
-  <project groups="default" name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" revision="4f7206076c6bc38dbf88162ca87523936cdfcaef"/>
+  <project groups="default" name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" revision="7ef9de1e66f926287774184522936b9ba26be7cd"/>
   <project groups="default" name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="10f05a57805c5409f990959dcad25c67a82ec16d"/>
   <project groups="default" name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder" revision="62db451fb742f17669300b9915b9f446f43361ce"/>
-  <project groups="default" name="platform/packages/apps/Stk" path="packages/apps/Stk" revision="0df537e5b81bf296e36b6747c586f1f2370e1c19"/>
+  <project groups="default" name="platform/packages/apps/Stk" path="packages/apps/Stk" revision="ba1d1c7027cfe557d810765da34228c0a4be5154"/>
   <project groups="default" name="platform/packages/apps/Tag" path="packages/apps/Tag" revision="eaa8123e4ee057866793948064e78ac7cf3a6f9f"/>
   <project groups="default" name="platform/packages/apps/VideoEditor" path="packages/apps/VideoEditor" revision="daa3e0e483519651ee81768791a762a77d2182e5"/>
   <project groups="default" name="platform/packages/apps/VoiceDialer" path="packages/apps/VoiceDialer" revision="604b49ea1fd6b9289b1352b620ed065dfbf74979"/>
@@ -274,7 +274,7 @@
   <project groups="default" name="platform/packages/providers/DrmProvider" path="packages/providers/DrmProvider" revision="8c0cd0d6cb0a6ea9b5820138bb523ee5a69dcd44"/>
   <project groups="default" name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" revision="7b9b869663f73ed48156e9f8b19f7aca4b77ad26"/>
   <project groups="default" name="platform/packages/providers/PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider" revision="96d0a80af45923767baf449fc8c735c2f71d64ae"/>
-  <project groups="default" name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" revision="7f1bb075265626877675d267bcee266078dea145"/>
+  <project groups="default" name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" revision="143c22c54a2e7364534790363a17b9d5960511f0"/>
   <project groups="default" name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" revision="ccfedce270d66beb36c685cb496245c699917832"/>
   <project groups="default" name="platform/packages/wallpapers/Basic" path="packages/wallpapers/Basic" revision="c31dd3f30d02758747a40da1057a326b8bc0e01e"/>
   <project groups="default" name="platform/packages/wallpapers/Galaxy4" path="packages/wallpapers/Galaxy4" revision="9cc201742a70ab0879965d23d2c2b33ee6c18e70"/>
@@ -309,20 +309,20 @@
   <project groups="default" name="platform/prebuilts/tools" path="prebuilts/tools" revision="f3caf7e4e568492fa2f93df9d43a8fce747eef91"/>
   <project groups="default" name="platform/sdk" path="sdk" revision="4299ae80a41ae2f90fb982d693ffbcffb024fef4"/>
   <project groups="default" name="platform/system/bluetooth" path="system/bluetooth" revision="b9b2e6ad7eefa38fc93b781a11be971fb5fad91f"/>
-  <project groups="default" name="platform/system/core" path="system/core" revision="53a5426cddfd5868a6abf32bf1caadb7b9cd29cd"/>
+  <project groups="default" name="platform/system/core" path="system/core" revision="0032b767e90613515d6e8a47bb9aeeaa9d05fd3d"/>
   <project groups="default" name="platform/system/extras" path="system/extras" revision="32243fadeab8cf244861e3df89744b78ba3eff92"/>
   <project groups="default" name="platform/system/media" path="system/media" revision="7549ccb4e4c4172b4a3f2280c1f54cb702e8d7c2"/>
-  <project groups="default" name="platform/system/netd" path="system/netd" revision="a5a971147972d9e1d1ea2cca35a07f0f2582c3d4"/>
+  <project groups="default" name="platform/system/netd" path="system/netd" revision="39fb636722aa3aa294f30aaa8de03de707044cc9"/>
   <project groups="default" name="platform/system/qcom" path="system/qcom" revision="d4c0315ea33c472b4eec982654a8b78b66ae35db"/>
   <project groups="default" name="platform/system/security" path="system/security" revision="c0ff10d48be65cbf498636539316cc378b1c9424"/>
   <project groups="default" name="platform/system/vold" path="system/vold" revision="a7fdd0f84ce93b25fcb3ab31b8085446d262eb2c"/>
-  <project groups="default" name="platform/vendor/qcom-opensource/bt-wlan-coex" path="vendor/qcom/opensource/bt-wlan-coex" revision="21ddfb152ea45c072a2f720e4f63778f53d6a0de"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/bt-wlan-coex" path="vendor/qcom/opensource/bt-wlan-coex" revision="3cd123d996ecc4530603a1e435aa806b5f1ba3d4"/>
   <project groups="default" name="platform/vendor/qcom-opensource/testframework" path="vendor/qcom/opensource/testframework" revision="b8490a22ccd6976d7fd90e4b175c3678261c2a99"/>
   <project groups="default" name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" revision="8ae7d5675a71cc6a873e4a59940474e43fb09241"/>
   <project groups="default" name="platform/vendor/qcom-opensource/v8" path="vendor/qcom/opensource/v8" revision="77abddf5b8bda43e80be7282eced8e3f3d0d45dd"/>
-  <project groups="default" name="platform/vendor/qcom/msm7627a" path="device/qcom/msm7627a" revision="7cda7bf28cc3cefe3ef0ef810dc9b18ab0a9ed6f"/>
-  <project groups="default" name="platform/vendor/qcom/msm7630_surf" path="device/qcom/msm7630_surf" revision="62e382457bc9096550d5396039f6ce0bc6bbe795"/>
-  <project groups="default" name="platform/vendor/qcom/msm8625" path="device/qcom/msm8625" revision="8591017d11f0f818d97cf872188c5d5619c48cf7"/>
-  <project groups="default" name="platform/vendor/qcom/msm8660_surf" path="device/qcom/msm8660_surf" revision="c0c75c3e4017df988c67a9928bd1b5904b011188"/>
-  <project groups="default" name="platform/vendor/qcom/msm8960" path="device/qcom/msm8960" revision="2c0396767f04285d5a0e200ec91a2e83a658c33e"/>
+  <project groups="default" name="platform/vendor/qcom/msm7627a" path="device/qcom/msm7627a" revision="33cd23a528e45ef85b37e4d6e3c3465995255157"/>
+  <project groups="default" name="platform/vendor/qcom/msm7630_surf" path="device/qcom/msm7630_surf" revision="ef32d8ac20bf4e73c53d48ecf84b6aab72649896"/>
+  <project groups="default" name="platform/vendor/qcom/msm8625" path="device/qcom/msm8625" revision="8cf186493557dadb74cf661df1b92400a3fb1f6c"/>
+  <project groups="default" name="platform/vendor/qcom/msm8660_surf" path="device/qcom/msm8660_surf" revision="f46712da12eb0626ff91f21d8e6496b986fa4fc4"/>
+  <project groups="default" name="platform/vendor/qcom/msm8960" path="device/qcom/msm8960" revision="b734d97cc47c34edb57dae6fb68f08ddb95c05a2"/>
 </manifest>
