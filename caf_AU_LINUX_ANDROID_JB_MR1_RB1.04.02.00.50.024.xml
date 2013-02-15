@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <remote fetch="git://codeaurora.org/gitolite/quic/la" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="jb_mr1_rb1.12"/>
   <project groups="default" name="device/asus/grouper" revision="c384f5f2ac0c60106a93b45c30ff4137131f2d39"/>
   <project groups="default" name="device/asus/tilapia" revision="148ec084c4c40e7c3b833c6f65cbee6c703593fc"/>
