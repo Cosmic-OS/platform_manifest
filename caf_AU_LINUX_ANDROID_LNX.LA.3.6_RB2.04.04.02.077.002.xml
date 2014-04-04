@@ -54,7 +54,7 @@
   <project name="platform/external/arduino" path="external/arduino" revision="d06daf9bbc46838400461eb8e15842974e38d82a" upstream="LNX.LA.3.6_rb2.2"/>
   <project groups="pdk" name="platform/external/bison" path="external/bison" revision="c2418b886165add7f5a31fc5609f0ce2d004a90e" upstream="LNX.LA.3.6_rb2.2"/>
   <project name="platform/external/blktrace" path="external/blktrace" revision="ecd4382c514174a7fb92042bfc4ae6faf9d28983" upstream="LNX.LA.3.6_rb2.2"/>
-  <project groups="pdk" name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" revision="bbf0eedd2202e24ff3c8eb0533f0a9aef542a960" upstream="LNX.LA.3.6_rb2.2"/>
+  <project groups="pdk" name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" revision="9b3f020018904db956010b8331239f09c51b930a" upstream="LNX.LA.3.6_rb2.2"/>
   <project name="platform/external/bouncycastle" path="external/bouncycastle" revision="b1e4d28d756235ec33e45485994581f4590c37ff" upstream="LNX.LA.3.6_rb2.2"/>
   <project name="platform/external/brctl" path="external/brctl" revision="85130b403dea07b2230efed3287236fa0caefb1c" upstream="LNX.LA.3.6_rb2.2"/>
   <project groups="pdk" name="platform/external/bsdiff" path="external/bsdiff" revision="23e322ab19fb7d74c2c37e40ce364d9f709bdcee" upstream="LNX.LA.3.6_rb2.2"/>
@@ -248,7 +248,7 @@
   <project name="platform/external/webkit" path="external/webkit" revision="e5a69d762453638795f5d469906a50f36ee9f34d" upstream="LNX.LA.3.6_rb2.2"/>
   <project name="platform/external/webp" path="external/webp" revision="513e97bd307573e2adc776eb5368bd129aceaa4a" upstream="LNX.LA.3.6_rb2.2"/>
   <project groups="pdk" name="platform/external/webrtc" path="external/webrtc" revision="446452f84e9cc4c75d8e80f6f05e24793397a19d" upstream="LNX.LA.3.6_rb2.2"/>
-  <project groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="1c127df13d2b66bbbb51e98a843a102593a005b2" upstream="LNX.LA.3.6_rb2.2"/>
+  <project groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="31e303e694645d085ea812b5f24f18248b814355" upstream="LNX.LA.3.6_rb2.2"/>
   <project name="platform/external/xmlwriter" path="external/xmlwriter" revision="e95d92246ee35273dde2bee8b00485cc14c12be5" upstream="LNX.LA.3.6_rb2.2"/>
   <project name="platform/external/xmp_toolkit" path="external/xmp_toolkit" revision="42ea4dc6d1fc2206a7778029070ed9213e3b0fbf" upstream="LNX.LA.3.6_rb2.2"/>
   <project groups="pdk" name="platform/external/yaffs2" path="external/yaffs2" revision="a2cff2275e1b501ff478b03757d6e4f05fddc2db" upstream="LNX.LA.3.6_rb2.2"/>
@@ -309,7 +309,7 @@
   <project groups="pdk-java" name="platform/libnativehelper" path="libnativehelper" revision="50c4430e32849530ced32680fd6ee98963b3f7ac" upstream="LNX.LA.3.6_rb2.2"/>
   <project name="platform/ndk" path="ndk" revision="e58ef003be4306bb53a8c11331146f39e4eab31f" upstream="LNX.LA.3.6_rb2.2"/>
   <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="89b51513da84c3ce7fdbd9949e422351fd726dc5" upstream="LNX.LA.3.6_rb2.2"/>
-  <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="6d6b13f3d52b5ade89635ed5c5861f8976d8d91d" upstream="LNX.LA.3.6_rb2.2"/>
+  <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="b3205d99adf2c69bb1f15f8355abb629c0f77a51" upstream="LNX.LA.3.6_rb2.2"/>
   <project name="platform/packages/apps/Browser" path="packages/apps/Browser" revision="00d8d74438eccb2cbdaa205ceb861eec9c02a85d" upstream="LNX.LA.3.6_rb2.2"/>
   <project name="platform/packages/apps/Calculator" path="packages/apps/Calculator" revision="2ec1cc1745f95366f17ac3a359df812688b1a452" upstream="LNX.LA.3.6_rb2.2"/>
   <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="033126ee5ba8dc287896c3da39d7ee77623350d6" upstream="LNX.LA.3.6_rb2.2"/>
@@ -436,12 +436,12 @@
   <project groups="tools" name="platform/tools/external/fat32lib" path="tools/external/fat32lib" revision="5b54b0e25a4b55fa6a180d225f8f1790fb63287b" upstream="LNX.LA.3.6_rb2.2"/>
   <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle" revision="8ff4a755637a21ac7b5918d86302e22ba3f7fa37" upstream="LNX.LA.3.6_rb2.2"/>
   <project groups="pdk" name="platform/tools/swt" path="tools/swt" revision="fe30ee3a716015332e696d34d19bc27146a92cb6" upstream="LNX.LA.3.6_rb2.2"/>
-  <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth" revision="68370a38b5074ffeab34edcffd851178836b8f36" upstream="LNX.LA.3.6_rb2.2"/>
+  <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth" revision="a2b9a5438726a733d582ac1770a2721b8039f774" upstream="LNX.LA.3.6_rb2.2"/>
   <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" revision="0f57f49c5b9a26ab7230a00bef55841dc13aba5e" upstream="LNX.LA.3.6_rb2.2"/>
   <project name="platform/vendor/qcom-opensource/fm" path="vendor/qcom/opensource/fm" revision="5af660beb26e2b3acdd0aa1c6e59264fcf827b65" upstream="LNX.LA.3.6_rb2.2"/>
   <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="vendor/qcom/opensource/kernel-tests" revision="4cf3b68202afa3939eea95cf7e268d7b89d343f3" upstream="LNX.LA.3.6_rb2.2"/>
   <project name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location" revision="baa0175414185d2afdb104aefe1dc6b372fe5317" upstream="LNX.LA.3.6_rb2.2"/>
-  <project name="platform/vendor/qcom-opensource/mhi" path="vendor/qcom/opensource/mhi" revision="8a9f93e51ab7e25fcde5e0dc4b58309e2086e23b" upstream="LNX.LA.3.6_rb2.2"/>
+  <project name="platform/vendor/qcom-opensource/mhi" path="vendor/qcom/opensource/mhi" revision="05cae731634b8e3f6f1e86b57ad0a836b628af9f" upstream="LNX.LA.3.6_rb2.2"/>
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" revision="4f614e2e305822843d4f4812d716503974191ab7" upstream="LNX.LA.3.6_rb2.2"/>
   <project name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools" revision="9a0f96da704f2194fb9cf0162f2285e8470c3bd6" upstream="LNX.LA.3.6_rb2.2"/>
   <project name="platform/vendor/qcom-opensource/wlan/prima" path="vendor/qcom/opensource/wlan/prima" revision="1a7f075f195ef2d9581cec6959131e50f56bd646" upstream="LNX.LA.3.6_rb2.2"/>
