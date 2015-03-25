@@ -9,8 +9,6 @@
   <project name="device/qcom/sepolicy" revision="db44892af20d194d087e20f1240ee0f5ae2ef84c" upstream="LNX.LW.2.0"/>
   <project name="kernel/lk" path="bootable/bootloader/lk" revision="11aa260a1faefab44535d41ca0c995e6d9aa13ae" upstream="LNX.LW.2.0"/>
   <project name="kernel/msm-3.10" path="kernel" revision="6562bfd1f0fc23c29bc779031fe237a8d7cd07d2" upstream="LNX.LW.2.0"/>
-    <copyfile dest="Makefile" src="core/root.mk"/>
-  </project>
   <project name="platform/external/powertop" path="external/powertop" revision="58148e916d7d708713c009dc9b5c915b36b4410b" upstream="refs/heads/master"/>
   <project groups="qcom,default" name="platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="ae8c2afe4af7093fb1e351b768347855e426453b" upstream="LNX.LW.2.0"/>
   <project groups="qcom,default" name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="72ee5b338b6fcdf9de0112d4e8b3be264a924b59" upstream="refs/heads/master"/>
