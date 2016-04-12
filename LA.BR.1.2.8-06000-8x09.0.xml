@@ -26,7 +26,7 @@
   </project>
   <project name="device/qcom/sepolicy" revision="927ad9943c68661921c03faaac2fe5ed61f77a0a" upstream="refs/heads/LA.BR.1.2.8_1"/>
   <project groups="pdk" name="device/sample" revision="85a048d02b8cc16317581bb5c9e8fa9821057031" upstream="LA.BR.1.3.4"/>
-  <project name="external/live555" revision="0d7761c606f5a9d539d7ab6e74b8eaa55696eb8e" upstream="concam-streaming.lnx.1.0-rel.1.0"/>
+  <project name="quic/la/external/live555" revision="0d7761c606f5a9d539d7ab6e74b8eaa55696eb8e" upstream="concam-streaming.lnx.1.0-rel.1.0"/>
   <project name="kernel/lk" path="bootable/bootloader/lk" revision="54f3d9903ee4c61bc9f11885e3711255b0aea387" upstream="refs/heads/LA.BR.1.2.6"/>
   <project name="kernel/msm-3.10" path="kernel" revision="322bf23d54d3113f96d0551f747cf2f6b9228c87" upstream="refs/heads/LA.BR.1.2.8"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="LA.BR.1.3.4"/>
