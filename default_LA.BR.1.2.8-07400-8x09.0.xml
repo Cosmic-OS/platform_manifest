@@ -26,7 +26,7 @@
   </project>
   <project name="device/qcom/sepolicy" revision="refs/heads/LA.BR.1.2.8_1"/>
   <project groups="pdk" name="device/sample"/>
-  <project name="external/live555" revision="concam-streaming.lnx.1.0-rel.1.0"/>
+  <project name="quic/la/external/live555" path="external/live555" revision="concam-streaming.lnx.1.0-rel.1.0"/>
   <project name="kernel/lk" path="bootable/bootloader/lk" revision="refs/heads/LA.BR.1.2.6"/>
   <project name="kernel/msm-3.10" path="kernel" revision="refs/heads/LA.BR.1.2.8"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
