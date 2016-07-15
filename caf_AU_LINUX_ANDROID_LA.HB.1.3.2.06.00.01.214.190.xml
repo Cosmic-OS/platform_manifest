@@ -433,7 +433,7 @@
   <project name="platform/system/qcom" path="vendor/qcom/opensource/softap" revision="45751cb4bb0dd18fb5ff0ee794b51d922b65e72f" upstream="LA.HB.1.3.1"/>
   <project groups="pdk" name="platform/system/security" path="system/security" revision="8fe6ab6a41707a41a4faa2dedfb073f4fb3d4904" upstream="LA.HB.1.3.1"/>
   <project groups="pdk" name="platform/system/vold" path="system/vold" revision="836164e738cd60243f44be587103cb7d60648d9b" upstream="LA.HB.1.3.1"/>
-  <project name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/external/libnfc-nci" revision="8678cf01e83d326f536ae7096628f382200ef8cc" upstream="LA.HB.1.3.1"/>
+  <project name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/external/libnfc-nci" revision="8678cf01e83d326f536ae7096628f382200ef8cc" upstream="LA.HB.1.3.2"/>
   <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/frameworks" revision="c9103111279e98fe6a4b29e2aa0e339b403a17dd" upstream="LA.HB.1.3.1"/>
   <project name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/packages/apps/Nfc" revision="930ef0c3198d29713f9bf6132bc93a87bc7e0f6c" upstream="LA.HB.1.3.1"/>
   <project groups="qcom" name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth" revision="6a281c305132b78071120a42978a645682d5578f" upstream="LA.HB.1.3.2"/>
