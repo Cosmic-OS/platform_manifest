@@ -1,0 +1,27 @@
+<img src="https://github.com/Cosmic-OS/platform_manifest/raw/n/cosmic-os-logo.png"> 
+
+=========
+Cosmic-OS
+=========
+
+Getting Started 
+--------------- 
+To get started with the Cosmic-OS sources, you'll need to get 
+familiar with [Git and Repo](http://source.android.com/source/version-control.html). 
+
+Initialize the Repositories 
+---------------------------
+
+    repo init -u https://github.com/Cosmic-OS/platform_manifest.git -b n
+    repo sync -c --no-tags --no-clone-bundle -f --force-sync -j6 
+
+This will initialize the new repository and begin the initial sync. This can take a while!
+
+Building the System 
+-------------------
+ Initialize the ROM environment with the envsetup.sh script. By entering command (i).
+
+    1. . build/envsetup.sh
+    2. lunch cos_<device>-userdebug
+    3. make otapackage -j6
+
