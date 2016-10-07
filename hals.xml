@@ -15,7 +15,7 @@
   <project path="hardware/qcom/audio-caf/msm8996" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.0-caf-8996" remote="github" />
   <project path="hardware/qcom/bootctrl" name="CyanogenMod/android_hardware_qcom_bootctrl" groups="pdk" revision="cm-14.0" remote="github" />
   <project path="hardware/qcom/bt" name="Cosmic-OS/platform_hardware_qcom_bt" groups="qcom" revision="n" remote="github" />
-  <project path="hardware/qcom/bt-caf" name="Cosmic-OS/platform_hardware_qcom_bt" groups="qcom" revision="n-caf" remote="github" />
+  <project path="hardware/qcom/bt-caf" name="QuantumDroid/platform_hardware_qcom_bt" groups="qcom" revision="n7.0-caf" remote="github" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" revision="cm-14.0" remote="github" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.0" remote="github" />
   <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.0-caf-8084" remote="github" />
@@ -39,7 +39,7 @@
   <project path="hardware/qcom/media-caf/msm8994" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-14.0-caf-8994" remote="github" />
   <project path="hardware/qcom/media-caf/msm8996" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-14.0-caf-8996" remote="github" />
   <project path="hardware/qcom/wlan" name="Cosmic-OS/platform_hardware_qcom_wlan" groups="qcom_wlan" revision="n" remote="github" />
-  <project path="hardware/qcom/wlan-caf" name="Cosmic-OS/platform_hardware_qcom_wlan" groups="qcom_wlan" revision="n-caf" remote="github" />
+  <project path="hardware/qcom/wlan-caf" name="QuantumDroid/platform_hardware_qcom_wlan" groups="qcom_wlan" revision="n7.0-caf" remote="github" />
   <project path="hardware/ril" name="Cosmic-OS/platform_hardware_ril" groups="pdk" revision="n" remote="github" />
   <project path="hardware/ril-caf" name="Cosmic-OS/platform_hardware_ril" groups="pdk" revision="n-caf" remote="github" />
   <project path="vendor/qcom/opensource/dataservices" name="Cosmic-OS/platform_vendor_qcom-opensource_dataservices" revision="n" remote="github" />
