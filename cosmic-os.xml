@@ -97,6 +97,7 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/SoundRecorder" name="platform_packages_apps_SoundRecorder" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/Stk" name="platform_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="cosmic-os" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="cosmic-os" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="cosmic-os" />
