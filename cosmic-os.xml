@@ -7,7 +7,7 @@
 
   <!-- Cosmic-OS Droid Projects -->
   <project name="platform_manifest" path="manifest"  remote="cosmic-os" />
-  <project path="build" name="platform_build" groups="pdk,tradefed" revision="temp" remote="cosmic-os" >
+  <project path="build" name="platform_build" groups="pdk,tradefed" revision="n-test" remote="cosmic-os" >
     <copyfile src="core/root.mk" dest="Makefile" remote="cosmic-os" />
   </project>
   <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed"  remote="cosmic-os" />
