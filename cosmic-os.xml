@@ -38,6 +38,7 @@
   <project path="external/fsck_msdos" name="platform_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" remote="cosmic-os" />
   <project path="external/fuse" name="platform_external_fuse"  remote="cosmic-os" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" groups="pdk-fs" remote="cosmic-os"/>
+  <project path="external/google" name="platform_external_google" groups="pdk-fs" remote="cosmic-os" />
   <project path="external/gson" name="platform_external_gson"  remote="cosmic-os" />
   <project path="external/iproute2" name="platform_external_iproute2" groups="pdk" remote="cosmic-os" />
   <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="cosmic-os" />
@@ -93,6 +94,7 @@
   <project path="packages/apps/Galaxy" name="platform_packages_apps_Galaxy" remote="cosmic-os" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="cosmic-os" />
+  <project path="packages/apps/LockClock" name="platform_packages_apps_LockClock" groups"pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/MusicFX" name="platform_packages_apps_MusicFX" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/OmniSwitch" name="platform_packages_apps_OmniSwitch" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" groups="pdk-fs" remote="cosmic-os" />
@@ -100,6 +102,7 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/SoundRecorder" name="platform_packages_apps_SoundRecorder" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/Stk" name="platform_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="cosmic-os" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="cosmic-os" />
