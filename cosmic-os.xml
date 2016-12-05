@@ -128,4 +128,5 @@
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony"  remote="cosmic-os" />
   <project path="vendor/qcom/opensource/bluetooth" name="platform_vendor_qcom-opensource_bluetooth" remote="cosmic-os" />
   <project path="vendor/cos" name="platform_vendor_cos"  remote="cosmic-os" />
+  <project path="vendor/cos/ota" name="platform_vendor_cos_ota"  remote="cosmic-os" />
 </manifest>
