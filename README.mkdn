@@ -23,7 +23,7 @@ Building the System
 -------------------
  Initialize the ROM environment with the envsetup.sh script. By entering command (i).
 
-    .build.sh #device
+    . build.sh #device
 
  Just replace #device with your device name 
 
@@ -32,8 +32,8 @@ Building the System
 
  OR
 
-    1. . build/envsetup.sh
-    2. lunch cos_<device>-userdebug
-    3. make otapackage -j#
+     . build/envsetup.sh
+     lunch cos_<device>-userdebug
+     make otapackage -j#
  
   -j# -Set jobs by just replacing # with what you wish
