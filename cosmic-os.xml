@@ -3,7 +3,7 @@
 
   <remote  name="cosmic-os"
            fetch="https://github.com/Cosmic-OS"
-           revision="refs/heads/n" />
+           revision="refs/heads/n7.1" />
 
   <!-- Cosmic-OS Projects -->
   <project name="platform_manifest" path="manifest"  remote="cosmic-os" />
@@ -52,7 +52,7 @@
   <project path="external/libncurses" name="platform_external_libncurses" remote="cosmic-os" />
   <project path="external/libnetfilter_conntrack" name="platform_external_libnetfilter_conntrack" remote="cosmic-os" />
   <project path="external/libnfnetlink" name="platform_external_libnfnetlink" remote="cosmic-os" />
-  <project path="external/libsphonenumbergoogle" name="platform_external_libphonenumbergoogle" remote="cosmic-os" />
+  <project path="external/libphonenumbergoogle" name="platform_external_libphonenumbergoogle" remote="cosmic-os" />
   <project path="external/libselinux" name="platform_external_libselinux" groups="pdk" remote="cosmic-os" />
   <project path="external/lzma" name="platform_external_lzma" groups="pdk" remote="cosmic-os"/>
   <project path="external/powertop" name="platform_external_powertop" remote="cosmic-os" />
@@ -120,6 +120,7 @@
   <project path="system/core" name="platform_system_core" groups="pdk" remote="cosmic-os" />
   <project path="system/extras" name="platform_system_extras" groups="pdk" remote="cosmic-os" />
   <project path="system/extras/su" name="platform_system_extras_su" groups="pdk" remote="cosmic-os" />
+  <project path="system/keymaster" name="platform_system_keymaster" groups="pdk" remote="cosmic-os" />
   <project path="system/media" name="platform_system_media" groups="pdk" remote="cosmic-os" />
   <project path="system/netd" name="platform_system_netd" groups="pdk" remote="cosmic-os"/>
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="cosmic-os" />
