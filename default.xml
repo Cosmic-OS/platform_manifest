@@ -389,7 +389,6 @@
   <project path="external/tinyxml2" name="AOSP-JF-MM/platform_external_tinyxml2" groups="pdk" remote="github" revision="aosp-7.1.1" />
   <project path="external/yaffs2" name="AOSP-JF-MM/platform_external_yaffs2" groups="pdk" remote="github" revision="aosp-7.1.1" />
   <project path="external/zlib" name="AOSP-JF-MM/platform_external_zlib" groups="pdk" remote="github" revision="aosp-7.1.1" />
-  <project path="frameworks/av" name="AOSP-JF-MM/platform_frameworks_av" groups="pdk" remote="github" revision="aosp-7.1.1" />
   <project path="frameworks/native" name="AOSP-JF-MM/platform_frameworks_native" groups="pdk" remote="github" revision="aosp-7.1.1" />
   <project path="frameworks/opt/net/wifi" name="AOSP-JF-MM/platform_frameworks_opt_net_wifi" groups="pdk" remote="github" revision="aosp-7.1.1" />
   <project path="frameworks/opt/telephony" name="AOSP-JF-MM/platform_frameworks_opt_telephony" groups="pdk" remote="github" revision="aosp-7.1.1" />
