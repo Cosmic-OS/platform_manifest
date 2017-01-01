@@ -14,7 +14,7 @@
   <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8994" remote="github" />
   <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8996" remote="github" />
   <project path="hardware/qcom/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="pdk" revision="cm-14.1" remote="github" />
-  <project path="hardware/qcom/bt" name="LineageOS/platform_hardware_qcom_bt" groups="qcom" revision="n7.1" remote="github" />
+  <project path="hardware/qcom/bt" name="Cosmic-OS/platform_hardware_qcom_bt" groups="qcom" revision="n7.1" remote="github" />
   <project path="hardware/qcom/bt-caf" name="QuantumDroid/platform_hardware_qcom_bt" groups="qcom" revision="n7.1-caf" remote="github" />
   <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" groups="qcom" revision="cm-14.1" remote="github" />
   <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1" remote="github" />
