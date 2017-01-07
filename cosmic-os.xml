@@ -51,6 +51,9 @@
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="cosmic-os" />
   <project path="packages/apps/Calendar" name="platform_packages_apps_Calendar" groups="pdk-fs" remote="cosmic-os"/>
   <project path="packages/apps/CosmicOTA" name="platform_packages_apps_CosmicOTA" groups="pdk-fs" remote="cosmic-os" />
+  <project path="OTA_COS" name="OTA_COS" remote="cosmic-os" >
+  <copyfile src="ota_conf" dest="ota_conf" />
+  </project>
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/DUI" name="platform_packages_apps_DUI" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="cosmic-os" />
