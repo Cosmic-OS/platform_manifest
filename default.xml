@@ -7,7 +7,7 @@
 
   <default revision="refs/tags/android-7.1.1_r9"
            remote="aosp"
-	       sync-c="true"
+	   sync-c="true"
            sync-j="4" />
 
 <!-- Cosmic-OS Projects -->
@@ -311,7 +311,6 @@
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
-  <project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs" />
@@ -364,11 +363,12 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   
-  <!-- CM -->
+  <!-- LineageOS -->
   <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="frameworks/opt/net/ims" name="LineageOS/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1" />
   <project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" remote="github" revision="cm-14.1" />
+  <project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" remote="github" revision="cm-14.1" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" remote="github" revision="cm-14.1" />
   
   <!-- Vendors -->
