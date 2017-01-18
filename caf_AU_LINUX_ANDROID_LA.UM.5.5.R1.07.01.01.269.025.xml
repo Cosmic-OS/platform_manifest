@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git://codeaurora.org/quic/la" name="caf" review="codeaurora.org"/>
+  <remote fetch="https://source.codeaurora.org/quic/la/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="android-external.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="device/common" revision="48c94d0b2799f334e3a7d301100480deb2770cfb" upstream="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="device/generic/arm64" revision="20fcdc082d1bfa8d183170a19d141c33270bf381" upstream="android-framework.lnx.2.0.r5-rel"/>
