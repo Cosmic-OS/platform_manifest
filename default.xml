@@ -7,8 +7,9 @@
 
   <default revision="refs/tags/android-7.1.1_r9"
            remote="aosp"
-	   sync-c="true"
-           sync-j="4" />
+           sync-c="true"
+           sync-f="true"
+           sync-j="8" />
 
 <!-- Cosmic-OS Projects -->
   <include name="cosmic-os.xml" />

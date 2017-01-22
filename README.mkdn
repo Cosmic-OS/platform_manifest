@@ -13,7 +13,7 @@ Initialize the Repositories
 ---------------------------
 
     repo init -u https://github.com/Cosmic-OS/platform_manifest.git -b n7.1
-    repo sync -c --no-tags --no-clone-bundle -f --force-sync -j# 
+    repo sync --no-tags --no-clone-bundle --force-sync 
 
  -j# -Set jobs by just replacing # with what you wish
 
@@ -28,7 +28,7 @@ Building the System
  Just replace #device with your device name 
 
  EG 
-    .build.sh hammerhead 
+    .build-cos.sh angler 
 
  OR
 
