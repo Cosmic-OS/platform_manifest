@@ -23,6 +23,7 @@
   <project path="external/apache-http" name="platform_external_apache-http" groups="pdk"  remote="cosmic-os" />
   <project path="external/bash" name="platform_external_bash"  remote="cosmic-os" />
   <project path="external/brctl" name="platform_external_brctl" remote="cosmic-os" />
+  <project path="external/busybox" name="platform_external_busybox" remote="cosmic-os" />
   <project path="external/bzip2" name="platform_external_bzip2" groups="pdk" remote="cosmic-os" />
   <project path="external/boringssl" name="platform_external_boringssl" groups="pdk" remote="cosmic-os" />
   <project path="external/chromium-webview" name="platform_external_chromium-webview" groups="pdk" remote="cosmic-os"  />
