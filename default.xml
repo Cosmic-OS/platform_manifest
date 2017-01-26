@@ -369,9 +369,9 @@
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="frameworks/opt/net/ims" name="LineageOS/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1" />
   <project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" remote="github" revision="cm-14.1" />
+  <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="github" revision="cm-14.1" />
   <project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" remote="github" revision="cm-14.1" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" remote="github" revision="cm-14.1" />
-  
   <!-- Vendors -->
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-14.1" />
