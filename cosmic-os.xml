@@ -5,9 +5,6 @@
            fetch="https://github.com/Cosmic-OS"
            revision="refs/heads/n7.1" />
 
-  <remote  name="bitbucket"
-           fetch="https://bitbucket.org" />
-
   <!-- Cosmic-OS Projects -->
   <project name="platform_manifest" path="manifest"  remote="cosmic-os" />
   <project path="build" name="platform_build" groups="pdk,tradefed" remote="cosmic-os" >
@@ -122,9 +119,5 @@
   <project path="vendor/cos" name="platform_vendor_cos"  remote="cosmic-os" >
   <copyfile dest="build-cos.sh" src="build-cos.sh"/>
   </project>
-
-  <!-- UberTC -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="DespairFactor/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="bitbucket" revision="master" />
 
 </manifest>
