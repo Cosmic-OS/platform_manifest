@@ -45,5 +45,5 @@
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/samsung" name="AOSP-JF-MM/android_hardware_samsung" remote="github" revision="aosp-7.1.1" />
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-14.1" />
 </manifest>
