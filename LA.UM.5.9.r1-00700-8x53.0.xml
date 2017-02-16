@@ -521,5 +521,5 @@
   <project name="platform/vendor/qcom/thulium" path="device/qcom/msm8996" revision="c9068e9be811d1f98a60a1798c13ca815032da94" upstream="qcom-devices.lnx.1.0.r14-rel"/>
   <project name="platform/vendor/qcom/titanium_32" path="device/qcom/msm8953_32" revision="dd2eb368f13415ab260f751d7b5263acb0aca98a" upstream="qcom-devices.lnx.1.0.r14-rel"/>
   <project name="platform/vendor/qcom/titanium_64" path="device/qcom/msm8953_64" revision="cd677644f9a6273abf117f92fb64d916e7edf950" upstream="qcom-devices.lnx.1.0.r14-rel"/>
-  <project name="toolchain/binutils" revision="edd2dff23373691ae99fe7b0643ec9632bcfe692" upstream="android-framework.lnx.2.0.r14-rel"/>
+  <project name="quic/la/toolchain/binutils" path="toolchain/binutils" revision="edd2dff23373691ae99fe7b0643ec9632bcfe692" upstream="android-framework.lnx.2.0.r14-rel"/>
 </manifest>
