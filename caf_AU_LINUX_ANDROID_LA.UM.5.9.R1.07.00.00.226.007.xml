@@ -27,6 +27,7 @@
   <project name="device/qcom/sepolicy" revision="0e13afaf8a5204b3a4542df6b8232be6a3b14263" upstream="sepolicy.lnx.2.0.r14-rel"/>
   <project groups="pdk" name="device/sample" revision="ff34bcfcb0f211686dbcefc8c59aa86c65056405" upstream="android-framework.lnx.2.0.r14-rel"/>
   <project name="kernel/lk" path="bootable/bootloader/lk" revision="aea87d01ccdff339eba40c74fa497366cc677b1b" upstream="lk.lnx.1.0.r14-rel"/>
+  <project name="kernel/msm-3.18" revision="781ff3c12b299bd27d810df215c49e06aa9cb0eb" upstream="kernel.lnx.3.18.r14-rel"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="android-framework.lnx.2.0.r14-rel"/>
   <project groups="pdk" name="platform/art" path="art" revision="5a4c133532da73fd1eee29681ca9267cbb3ae7da" upstream="android-framework.lnx.2.0.r14-rel"/>
   <project groups="pdk" name="platform/bionic" path="bionic" revision="6b0b4145b97c01330ae5a26daad484937470409d" upstream="android-framework.lnx.2.0.r14-rel"/>
