@@ -121,5 +121,6 @@
   <project path="vendor/cos" name="platform_vendor_cos"  remote="cosmic-os" >
   <copyfile dest="build-cos.sh" src="build-cos.sh"/>
   </project>
+  <project path="vendor/qcom/binaries" name="platform_vendor_qcom_binaries" remote="cosmic-os" />
 
 </manifest>
