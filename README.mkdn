@@ -23,7 +23,7 @@ Building the System
 -------------------
  Initialize the ROM environment with the envsetup.sh script. By entering command (i).
 
-    . build.sh #device
+    . build-cos.sh #device
 
  Just replace #device with your device name 
 
