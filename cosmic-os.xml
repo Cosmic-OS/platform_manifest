@@ -85,7 +85,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform_packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="cosmic-os" />
-  <project path="packages/apps/CosmicOTA" name="platform_packages_apps_CosmicOTA" groups="pdk-fs" remote="cosmic-os" />
+  <project path="packages/apps/OTAUpdates" name="platform_packages_apps_OTAUpdates" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/CosmicWalls" name="platform_packages_apps_CosmicWalls" groups="pdk-fs" remote="cosmic-os" />
   <project path="OTA_COS" name="OTA_COS" remote="cosmic-os" >
   <copyfile src="ota_conf" dest="ota_conf" />
