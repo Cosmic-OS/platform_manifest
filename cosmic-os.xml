@@ -115,6 +115,7 @@
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="cosmic-os" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="cosmic-os" />
   <project path="system/extras" name="platform_system_extras" groups="pdk" remote="cosmic-os" />
+  <project path="vendor/ota" name="platform_vendor_ota" groups="pdk" remote="cosmic-os" />
   <project path="system/media" name="platform_system_media" groups="pdk" remote="cosmic-os" />
   <project path="system/netd" name="platform_system_netd" groups="pdk" remote="cosmic-os"/>
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="cosmic-os" />
