@@ -85,11 +85,8 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform_packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="cosmic-os" />
-  <project path="packages/apps/OTAUpdates" name="platform_packages_apps_OTAUpdates" groups="pdk-fs" remote="cosmic-os" />
+  <project path="packages/apps/OTAUpdates" name="halogenOS/android_packages_apps_OTAUpdates" groups="pdk-fs" remote="github" revision="XOS-7.1" />
   <project path="packages/apps/CosmicWalls" name="platform_packages_apps_CosmicWalls" groups="pdk-fs" remote="cosmic-os" />
-  <project path="OTA_COS" name="OTA_COS" remote="cosmic-os" >
-  <copyfile src="ota_conf" dest="ota_conf" />
-  </project>
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/DUI" name="platform_packages_apps_DUI" groups="pdk-fs" remote="cosmic-os" />
