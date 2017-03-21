@@ -13,7 +13,7 @@
            remote="aosp"
            sync-c="true"
            sync-f="true"
-           sync-j="8" />
+           sync-j="16" />
 
 <!-- Cosmic-OS Projects -->
   <include name="cosmic-os.xml" />
