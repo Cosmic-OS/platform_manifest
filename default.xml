@@ -376,6 +376,7 @@
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="github" revision="cm-14.1" />
   <project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" remote="github" revision="cm-14.1" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" remote="github" revision="cm-14.1" />
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
   <!-- Vendors -->
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/frameworks" name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-14.1" />
@@ -386,6 +387,7 @@
   <project path="vendor/qcom/opensource/dpm/" name="LineageOS/android_vendor_qcom_opensource_dpm" remote="github" revision="cm-14.1"/>
   <project path="vendor/qcom/opensource/time-services/" name="LineageOS/android_vendor_qcom_opensource_time-services" remote="github" revision="cm-14.1"/>
   <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="cm-14.1"/> 
+
   <!-- Linux packages -->
   <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" />
