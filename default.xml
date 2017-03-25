@@ -9,11 +9,11 @@
 	   fetch="https://github.com/Cosmic-Devices"
 	   revision="refs/heads/n7.1" />
 
-  <default revision="refs/tags/android-7.1.1_r25"
+  <default revision="refs/tags/android-7.1.1_r28"
            remote="aosp"
            sync-c="true"
            sync-f="true"
-           sync-j="8" />
+           sync-j="16" />
 
 <!-- Cosmic-OS Projects -->
   <include name="cosmic-os.xml" />
