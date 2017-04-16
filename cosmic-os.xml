@@ -120,6 +120,6 @@
   <copyfile dest="build-cos.sh" src="build-cos.sh"/>
   </project>
   <project path="vendor/qcom/binaries" name="platform_vendor_qcom_binaries" remote="cosmic-os" />
-  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="github" revision="n7.1" />
+  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="cosmic-os" revision="n7.1" />
 
 </manifest>
