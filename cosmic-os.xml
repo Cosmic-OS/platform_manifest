@@ -55,6 +55,7 @@
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/FMRadio" />
+  <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
@@ -134,6 +135,7 @@
   <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="cosmic-os" />
   <project name="platform_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="cosmic-os" />
   <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="cosmic-os" />
+  <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="cosmic-os" />
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="cosmic-os" />
   <project name="halogenOS/android_packages_apps_OTAUpdates" path="packages/apps/OTAUpdates" remote="github" revision="XOS-7.1" />
   <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="cosmic-os" />
