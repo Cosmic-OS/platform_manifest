@@ -540,6 +540,6 @@
   <include name="cosmic-os.xml"/>
 
   <!-- LAOS additions -->
-  <include name="laos.xml"/>
+  <include name="hals.xml"/>
 
 </manifest>
