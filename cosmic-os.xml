@@ -69,6 +69,7 @@
   <remove-project name="platform/system/qcom" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <remove-project name="platform/vendor/qcom-opensource/dataservices" />
   <remove-project name="platform/vendor/qcom-opensource/dpm" />
@@ -131,6 +132,7 @@
   <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" revision="n-mr2-caf" remote="cosmic-os" />
   <project name="platform_hardware_ril" path="hardware/ril" remote="cosmic-os" />
   <project name="platform_hardware_ril" path="hardware/ril-caf" revision="n-mr2-caf" remote="cosmic-os" />
+  <project name="platform_manifest" path="manifest" remote="cosmic-os" />
   <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="cosmic-os" />
   <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="cosmic-os" />
   <project name="platform_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="cosmic-os" />
@@ -155,6 +157,7 @@
   <copyfile dest="build-cos.sh" src="build-cos.sh"/>
   </project>
   <project name="platform_vendor_ota" path="vendor/ota" remote="cosmic-os" />
+  <project name="platform_vendor_qcom-opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="cosmic-os" />
   <project name="platform_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="cosmic-os" />
   <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="cosmic-os" />
   <project name="platform_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="cosmic-os" />
