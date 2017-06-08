@@ -59,6 +59,7 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/system/bt" />
@@ -143,6 +144,7 @@
   <project name="halogenOS/android_packages_apps_OTAUpdates" path="packages/apps/OTAUpdates" remote="github" revision="XOS-7.1" />
   <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="cosmic-os" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="cosmic-os" />
+  <project name="platform_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="cosmic-os" />
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="cosmic-os" />
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="cosmic-os" />
   <project name="platform_system_bt" path="system/bt" remote="cosmic-os" />
