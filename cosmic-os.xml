@@ -43,6 +43,7 @@
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/frameworks/support" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/audio"/>
   <remove-project name="platform/hardware/qcom/bt" />
@@ -125,6 +126,7 @@
   <project name="platform_frameworks_native" path="frameworks/native" remote="cosmic-os" />
   <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="cosmic-os" />
   <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="cosmic-os" />
+  <project name="platform_frameworks_support" path="frameworks/support" remote="cosmic-os" />
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="cosmic-os" />
   <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="cosmic-os" />
   <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt-caf" revision="n-mr2-caf" remote="cosmic-os" />
