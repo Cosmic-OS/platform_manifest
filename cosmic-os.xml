@@ -128,7 +128,7 @@
   <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="cosmic-os" />
   <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="cosmic-os" />
   <project name="platform_frameworks_support" path="frameworks/support" remote="cosmic-os" />
-  <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="cosmic-os" />
+  <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="cosmic-os" revision="n-mr2-test" />
   <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="cosmic-os" />
   <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt-caf" revision="n-mr2-caf" remote="cosmic-os" />
   <project name="platform_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="cosmic-os" />
