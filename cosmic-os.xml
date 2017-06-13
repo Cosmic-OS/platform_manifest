@@ -123,12 +123,12 @@
   <project name="platform_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="cosmic-os" />
   <project name="platform_external_zlib" path="external/zlib" remote="cosmic-os" />
   <project name="platform_frameworks_av" path="frameworks/av" remote="cosmic-os" />
-  <project name="platform_frameworks_base" path="frameworks/base" remote="cosmic-os" revision="n-mr2-test" />
-  <project name="platform_frameworks_native" path="frameworks/native" remote="cosmic-os" revision="n-mr2-test" />
+  <project name="platform_frameworks_base" path="frameworks/base" remote="cosmic-os" />
+  <project name="platform_frameworks_native" path="frameworks/native" remote="cosmic-os" />
   <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="cosmic-os" />
   <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="cosmic-os" />
   <project name="platform_frameworks_support" path="frameworks/support" remote="cosmic-os" />
-  <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="cosmic-os" revision="n-mr2-test" />
+  <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="cosmic-os" />
   <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="cosmic-os" />
   <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt-caf" revision="n-mr2-caf" remote="cosmic-os" />
   <project name="platform_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="cosmic-os" />
@@ -141,12 +141,12 @@
   <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="cosmic-os" />
   <project name="platform_packages_apps_DUI" path="packages/apps/DUI" remote="cosmic-os" />
   <project name="platform_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="cosmic-os" />
-  <project name="platform_packages_apps_Galaxy" path="packages/apps/Galaxy" remote="cosmic-os" revision="n-mr2-test" />
+  <project name="platform_packages_apps_Galaxy" path="packages/apps/Galaxy" remote="cosmic-os" />
   <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="cosmic-os" />
   <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="cosmic-os" />
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="cosmic-os" />
   <project name="halogenOS/android_packages_apps_OTAUpdates" path="packages/apps/OTAUpdates" remote="github" revision="XOS-7.1" />
-  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="cosmic-os" revision="n-mr2-test" />
+  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="cosmic-os" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="cosmic-os" />
   <project name="platform_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="cosmic-os" />
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="cosmic-os" />
@@ -159,7 +159,7 @@
   <project name="platform_system_sepolicy" path="system/sepolicy" remote="cosmic-os" />
   <project name="platform_system_vold" path="system/vold" remote="cosmic-os" />
   <project name="platform_system_qcom" path="vendor/qcom/opensource/softap" remote="cosmic-os" />
-  <project name="platform_vendor_cos" path="vendor/cos" remote="cosmic-os" revision="n-mr2-test" >
+  <project name="platform_vendor_cos" path="vendor/cos" remote="cosmic-os" >
   <copyfile dest="build-cos.sh" src="build-cos.sh"/>
   </project>
   <project name="platform_vendor_ota" path="vendor/ota" remote="cosmic-os" />
