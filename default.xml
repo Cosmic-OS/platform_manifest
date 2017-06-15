@@ -16,6 +16,9 @@
   <remote  name="github"
            fetch="https://github.com"/>
 
+  <remote  name="aosp"
+	   fetch="https://https://android.googlesource.com"/>
+
   <remote  name="devices"
 	   fetch="https://github.com/Cosmic-Devices"
 	   revision="refs/heads/n-mr2" />
