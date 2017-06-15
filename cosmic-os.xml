@@ -123,10 +123,10 @@
   <project name="platform_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="cosmic-os" />
   <project name="platform_external_zlib" path="external/zlib" remote="cosmic-os" />
   <project name="platform_frameworks_av" path="frameworks/av" remote="cosmic-os" />
-  <project name="platform_frameworks_base" path="frameworks/base" remote="cosmic-os" />
+  <project name="platform_frameworks_base" path="frameworks/base" remote="cosmic-os" revision="n-mr2-test" />
   <project name="platform_frameworks_native" path="frameworks/native" remote="cosmic-os" />
-  <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="cosmic-os" />
-  <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="cosmic-os" />
+  <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="cosmic-os" revision="n-mr2-test" />
+  <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="cosmic-os" revision="n-mr2-test" />
   <project name="platform_frameworks_support" path="frameworks/support" remote="cosmic-os" />
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="cosmic-os" />
   <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="cosmic-os" />
@@ -146,11 +146,11 @@
   <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="cosmic-os" />
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="cosmic-os" />
   <project name="halogenOS/android_packages_apps_OTAUpdates" path="packages/apps/OTAUpdates" remote="github" revision="XOS-7.1" />
-  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="cosmic-os" />
+  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="cosmic-os" revision="n-mr2-test" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="cosmic-os" />
   <project name="platform_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="cosmic-os" />
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="cosmic-os" />
-  <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="cosmic-os" />
+  <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="cosmic-os" revision="n-mr2-test" />
   <project name="platform_system_bt" path="system/bt" remote="cosmic-os" />
   <project name="platform_system_core" path="system/core" remote="cosmic-os" />
   <project name="platform_system_extras" path="system/extras" remote="cosmic-os" />
@@ -170,7 +170,7 @@
   <!-- END COSMIC-OS -->
 
   <!-- BEGIN CAF -->
-  <project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" revision="refs/tags/LA.UM.5.6.r1-04600-89xx.0" />
+  <project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" revision="refs/tags/LA.UM.5.6.r1-04700-89xx.0" />
   <!-- END CAF -->
 
   <!-- BEGIN SUBSTRATUM -->
