@@ -57,6 +57,7 @@
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/FMRadio" />
   <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
@@ -145,6 +146,7 @@
   <project name="platform_packages_apps_Galaxy" path="packages/apps/Galaxy" remote="cosmic-os" />
   <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="cosmic-os" />
   <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="cosmic-os" />
+  <project name="platform_packages_apps_Messaging" path="packages/apps/Messaging" remote="cosmic-os" />
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="cosmic-os" />
   <project name="platform_packages_apps_OTAUpdates" path="packages/apps/OTAUpdates" remote="cosmic-os" />
   <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="cosmic-os" />
