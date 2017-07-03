@@ -111,6 +111,7 @@
   <project name="platform_external_e2fsprogs" path="external/e2fsprogs" remote="cosmic-os" />
   <project name="platform_external_exfat" path="external/exfat" remote="cosmic-os" />
   <project name="platform_external_f2fs-tools" path="external/f2fs-tools" remote="cosmic-os" />
+  <project name="platform_external_ffmpeg" path="external/ffmpeg" remote="cosmic-os" />
   <project name="platform_external_fsck_msdos" path="external/fsck_msdos" remote="cosmic-os" />
   <project name="platform_external_fuse" path="external/fuse" remote="cosmic-os" />
   <project name="platform_external_jemalloc" path="external/jemalloc" remote="cosmic-os" />
@@ -118,6 +119,7 @@
   <project name="platform_external_ntfs-3g" path="external/ntfs-3g" remote="cosmic-os" />
   <project name="platform_external_okhttp" path="external/okhttp" remote="cosmic-os" />
   <project name="platform_external_skia" path="external/skia" remote="cosmic-os" />
+  <project name="platform_external_stagefright-plugins" path="external/stagefright-plugins" remote="cosmic-os" />
   <project name="platform_external_tinyalsa" path="external/tinyalsa" remote="cosmic-os" />
   <project name="platform_external_tinycompress" path="external/tinycompress" remote="cosmic-os" />
   <project name="platform_external_toybox" path="external/toybox" remote="cosmic-os" />
