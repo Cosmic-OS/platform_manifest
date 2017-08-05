@@ -181,5 +181,9 @@
   <!-- BEGIN SUBSTRATUM -->
   <project name="substratum/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless" />
   <!-- ENG SUBSTRATUM -->
+  
+  <!-- BEGIN SnapdragonClang -->
+  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86" path="vendor/qcom/sdclang-3.8/linux-x86" remote="github" revision="nougat-mr2" />
+  <!-- END SnapdragonClang -->
 
 </manifest>
