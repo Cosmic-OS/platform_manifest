@@ -21,7 +21,7 @@
            fetch="https://github.com"/>
 
   <remote  name="aosp"
-	   fetch="https://https://android.googlesource.com"/>
+	   fetch="https://android.googlesource.com"/>
 
   <remote  name="devices"
 	   fetch="https://github.com/Cosmic-Devices"
