@@ -60,7 +60,9 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="cosmic-os" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="cosmic-os" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="cosmic-os" />
-  
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="cosmic-os" />
+  <project path="frameworks/opt/datetimepicker" name="platform_frameworks_opt_datetimepicker" groups="pdk" remote="cosmic-os" />  
+
   <!-- Framework dependents -->
   <project path="art" name="platform_art" groups="pdk" remote="cosmic-os" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="cosmic-os" />
@@ -107,6 +109,8 @@
   <project path="system/qcom" name="platform_system_qcom" groups="qcom" remote="cosmic-os" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="cosmic-os" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="cosmic-os" />
+  <project path="system/libhidl" name="platform_system_libhidl" groups="pdk" remote="cosmic-os" />
+  <project path="system/tools/hidl" name="platform_system_tools_hidl" groups="pdk" remote="cosmic-os" />
   
   <!-- Hardware Resources -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="cosmic-os" />
@@ -121,7 +125,11 @@
   <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" groups="qcom_wlan" revision="oreo-caf" remote="cosmic-os" />
   <project path="hardware/ril" name="platform_hardware_ril" groups="pdk" remote="cosmic-os" />
   <project path="hardware/ril-caf" name="platform_hardware_ril" groups="pdk" revision="oreo-caf" remote="cosmic-os" />
-  
+
+  <!-- Qualcomm Extras -->
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cosmic-os" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="cosmic-os" />  
+
   <!-- Vendors -->
   <project path="vendor/cos" name="platform_vendor_cos" remote="cosmic-os" >
   <copyfile dest="build-cos.sh" src="build-cos.sh"/>
@@ -130,5 +138,6 @@
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom-opensource_dataservices" remote="cosmic-os" />
   <project path="vendor/qcom-opensource/interfaces" name="platform_vendor_qcom-opensource_interfaces" remote="cosmic-os" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom-opensource_cryptfs_hw" remote="cosmic-os" />
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony"  remote="cosmic-os" />
   
 </manifest>
