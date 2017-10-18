@@ -62,6 +62,7 @@
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="cosmic-os" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="cosmic-os" />
   <project path="frameworks/opt/datetimepicker" name="platform_frameworks_opt_datetimepicker" groups="pdk" remote="cosmic-os" />  
+  <project path="frameworks/support" name="platform_frameworks_support" groups="pdk" remote="cosmic-os" />
 
   <!-- Framework dependents -->
   <project path="art" name="platform_art" groups="pdk" remote="cosmic-os" />
