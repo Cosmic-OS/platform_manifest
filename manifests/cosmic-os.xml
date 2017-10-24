@@ -112,6 +112,7 @@
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="cosmic-os" />
   <project path="system/libhidl" name="platform_system_libhidl" groups="pdk" remote="cosmic-os" />
   <project path="system/tools/hidl" name="platform_system_tools_hidl" groups="pdk" remote="cosmic-os" />
+  <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" groups="pdk" remote="cosmic-os" />
   
   <!-- Hardware Resources -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="cosmic-os" />
