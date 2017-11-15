@@ -32,6 +32,7 @@
   <project path="external/flac" name="platform_external_flac" groups="pdk" remote="cosmic-os" />
   <project path="external/fsck_msdos" name="platform_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" remote="cosmic-os" />
   <project path="external/fuse" name="platform_external_fuse" remote="cosmic-os" />
+  <project path="external/gptfdisk" name="external_gptfdisk" groups="pdk-fs" remote="cosmic-os" />
   <project path="external/htop" name="platform_external_htop" remote="cosmic-os" />
   <project path="external/icu" name="platform_external_icu" groups="pdk" remote="cosmic-os" />
   <project path="external/iproute2" name="platform_external_iproute2" groups="pdk" remote="cosmic-os" />
