@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- HALS -->
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="laos" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" groups="qcom,qcom_audio" remote="laos" revision="lineage-15.0-caf-8084" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" groups="qcom,qcom_audio" remote="laos" revision="lineage-15.0-caf-8916" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8952" groups="qcom,qcom_audio" remote="laos" revision="lineage-15.0-caf-8952" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8960" groups="qcom,qcom_audio" remote="laos" revision="lineage-15.0-caf-8960" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" groups="qcom,qcom_audio" remote="laos" revision="lineage-15.0-caf-8974" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8994" groups="qcom,qcom_audio" remote="laos" revision="lineage-15.0-caf-8994" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" groups="qcom,qcom_audio" remote="laos" revision="lineage-15.0-caf-8996" />
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8998" groups="qcom,qcom_audio" remote="laos" revision="lineage-15.0-caf-8998" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="laos" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/apq8084" groups="pdk,qcom,qcom_display" remote="laos" revision="lineage-15.0-caf-8084" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" groups="pdk,qcom,qcom_display" remote="laos" revision="lineage-15.0-caf-8916" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8952" groups="pdk,qcom,qcom_display" remote="laos" revision="lineage-15.0-caf-8952" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8960" groups="pdk,qcom,qcom_display" remote="laos" revision="lineage-15.0-caf-8960" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" groups="pdk,qcom,qcom_display" remote="laos" revision="lineage-15.0-caf-8974" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8994" groups="pdk,qcom,qcom_display" remote="laos" revision="lineage-15.0-caf-8994" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" groups="pdk,qcom,qcom_display" remote="laos" revision="lineage-15.0-caf-8996" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8998" groups="pdk,qcom,qcom_display" remote="laos" revision="lineage-15.0-caf-8998" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="laos" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/apq8084" groups="qcom" remote="laos" revision="lineage-15.0-caf-8084" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8916" groups="qcom" remote="laos" revision="lineage-15.0-caf-8916" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8952" groups="qcom" remote="laos" revision="lineage-15.0-caf-8952" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8960" groups="qcom" remote="laos" revision="lineage-15.0-caf-8960" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" groups="qcom" remote="laos" revision="lineage-15.0-caf-8974" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8994" groups="qcom" remote="laos" revision="lineage-15.0-caf-8994" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" groups="qcom" remote="laos" revision="lineage-15.0-caf-8996" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8998" groups="qcom" remote="laos" revision="lineage-15.0-caf-8998" />
+
+</manifest>
