@@ -139,5 +139,6 @@
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom-opensource_dataservices" remote="cosmic-os" />
   <project path="vendor/qcom-opensource/interfaces" name="platform_vendor_qcom-opensource_interfaces" remote="cosmic-os" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom-opensource_cryptfs_hw" remote="cosmic-os" />
-  
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony"  remote="cosmic-os" />  
+
 </manifest>
