@@ -22,6 +22,7 @@
   <project path="external/bash" name="platform_external_bash" remote="cosmic-os" />
   <project path="external/boringssl" name="platform_external_boringssl" groups="pdk" remote="cosmic-os" />
   <project path="external/brctl" name="platform_external_brctl" remote="cosmic-os" />
+  <project path="external/bson" name="platform_external_bson" remote="cosmic-os" />
   <project path="external/bzip2" name="platform_external_bzip2" groups="pdk" remote="cosmic-os" />
   <project path="external/connectivity" name="platform_external_connectivity" remote="cosmic-os" />
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" groups="pdk" remote="cosmic-os" />
@@ -63,6 +64,7 @@
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="cosmic-os" />
   <project path="frameworks/opt/datetimepicker" name="platform_frameworks_opt_datetimepicker" groups="pdk" remote="cosmic-os" />  
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="cosmic-os" />
+  <project path="frameworks/support" name="platform_frameworks_support" groups="pdk" remote="cosmic-os" />
 
   <!-- Framework dependents -->
   <project path="art" name="platform_art" groups="pdk" remote="cosmic-os" />
