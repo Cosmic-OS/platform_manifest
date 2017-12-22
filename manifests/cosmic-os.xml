@@ -109,6 +109,7 @@
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="cosmic-os" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="cosmic-os" />
   <project path="system/extras" name="platform_system_extras" groups="pdk" remote="cosmic-os" />
+  <project path="system/libhidl" name="platform_system_libhidl" groups="pdk" remote="cosmic-os" />
   <project path="system/media" name="platform_system_media" groups="pdk" remote="cosmic-os" />
   <project path="system/netd" name="platform_system_netd" groups="pdk" remote="cosmic-os" />
   <project path="system/nfc" name="platform_system_nfc" groups="pdk" remote="cosmic-os" />
