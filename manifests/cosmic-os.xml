@@ -25,6 +25,7 @@
   <project path="external/bson" name="platform_external_bson" remote="cosmic-os" />
   <project path="external/bzip2" name="platform_external_bzip2" groups="pdk" remote="cosmic-os" />
   <project path="external/connectivity" name="platform_external_connectivity" remote="cosmic-os" />
+  <project path="external/DUtils" name="platform_external_DUtils" groups="pdk" remote="cosmic-os" />
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" groups="pdk" remote="cosmic-os" />
   <project path="external/ebtables" name="platform_external_ebtables" remote="cosmic-os" />
   <project path="external/elfutils" name="platform_external_elfutils" groups="pdk" remote="cosmic-os" />
@@ -85,6 +86,7 @@
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/CosmicWalls" name="platform_packages_apps_CosmicWalls" groups="pdk-fs" remote="cosmic-os" />
+  <project path="packages/apps/DUI" name="platform_packages_apps_DUI" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/OTAUpdates" name="platform_packages_apps_OTAUpdates" remote="cosmic-os" />
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="cosmic-os" />
