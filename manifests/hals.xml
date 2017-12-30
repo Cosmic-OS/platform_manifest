@@ -8,7 +8,7 @@
   <project name="hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8937" groups="qcom,qcom_audio" remote="gzosp" revision="8.1-caf-8937" />
   <project name="hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8952" groups="qcom,qcom_audio" remote="gzosp" revision="8.1-caf-8952" />
   <project name="hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8960" groups="qcom,qcom_audio" remote="gzosp" revision="8.1-caf-8960" />
-  <project name="hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" groups="qcom,qcom_audio" remote="gzosp" revision="8.1-caf-8974" />
+  <project name="XPerience-AOSP-Lollipop/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" groups="qcom,qcom_audio" remote="github" revision="xpe-12.1-caf-8974" />
   <project name="hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8994" groups="qcom,qcom_audio" remote="gzosp" revision="8.1-caf-8994" />
   <project name="hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" groups="qcom,qcom_audio" remote="gzosp" revision="8.1-caf-8996" />
   <project name="hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8998" groups="qcom,qcom_audio" remote="gzosp" revision="8.1-caf-8998" />
@@ -18,7 +18,7 @@
   <project name="hardware_qcom_display" path="hardware/qcom/display-caf/msm8937" groups="pdk,qcom,qcom_display" remote="gzosp" revision="8.1-caf-8937" />
   <project name="hardware_qcom_display" path="hardware/qcom/display-caf/msm8952" groups="pdk,qcom,qcom_display" remote="gzosp" revision="8.1-caf-8952" />
   <project name="hardware_qcom_display" path="hardware/qcom/display-caf/msm8960" groups="pdk,qcom,qcom_display" remote="gzosp" revision="8.1-caf-8960" />
-  <project name="hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" groups="pdk,qcom,qcom_display" remote="gzosp" revision="8.1-caf-8974" />
+  <project name="XPerience-AOSP-Lollipop/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" groups="pdk,qcom,qcom_display" remote="github" revision="xpe-12.1-caf-8974" />
   <project name="hardware_qcom_display" path="hardware/qcom/display-caf/msm8994" groups="pdk,qcom,qcom_display" remote="gzosp" revision="8.1-caf-8994" />
   <project name="hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" groups="pdk,qcom,qcom_display" remote="gzosp" revision="8.1-caf-8996" />
   <project name="hardware_qcom_display" path="hardware/qcom/display-caf/msm8998" groups="pdk,qcom,qcom_display" remote="gzosp" revision="8.1-caf-8998" />
@@ -28,7 +28,7 @@
   <project name="hardware_qcom_media" path="hardware/qcom/media-caf/msm8937" groups="qcom" remote="gzosp" revision="8.1-caf-8937" />
   <project name="hardware_qcom_media" path="hardware/qcom/media-caf/msm8952" groups="qcom" remote="gzosp" revision="8.1-caf-8952" />
   <project name="hardware_qcom_media" path="hardware/qcom/media-caf/msm8960" groups="qcom" remote="gzosp" revision="8.1-caf-8960" />
-  <project name="hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" groups="qcom" remote="gzosp" revision="8.1-caf-8974" />
+  <project name="XPerience-AOSP-Lollipop/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" groups="qcom" remote="github" revision="xpe-12.1-caf-8974" />
   <project name="hardware_qcom_media" path="hardware/qcom/media-caf/msm8994" groups="qcom" remote="gzosp" revision="8.1-caf-8994" />
   <project name="hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" groups="qcom" remote="gzosp" revision="8.1-caf-8996" />
   <project name="hardware_qcom_media" path="hardware/qcom/media-caf/msm8998" groups="qcom" remote="gzosp" revision="8.1-caf-8998" />
