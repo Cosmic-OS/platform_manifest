@@ -61,11 +61,11 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="cosmic-os" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="cosmic-os" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="cosmic-os" groups="pdk-cw-fs,pdk-fs" revision="oreo-mr1-ims" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="cosmic-os" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="cosmic-os" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="cosmic-os" revision="oreo-mr1-ims" />
   <project path="frameworks/opt/datetimepicker" name="platform_frameworks_opt_datetimepicker" groups="pdk" remote="cosmic-os" />  
-  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="pdk" remote="cosmic-os" />
+  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="pdk" remote="cosmic-os" revision="oreo-mr1-ims" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="cosmic-os" />
   <project path="frameworks/support" name="platform_frameworks_support" groups="pdk" remote="cosmic-os" />
 
@@ -98,7 +98,7 @@
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" groups="pdk-fs" remote="cosmic-os" />
-  <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="cosmic-os" />
+  <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="cosmic-os" revision="oreo-mr1-ims" />
   <project path="packages/apps/Phonograph" name="platform_packages_apps_Phonograph" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/Recorder" name="platform_packages_apps_Recorder" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="cosmic-os" />
@@ -106,8 +106,8 @@
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="cosmic-os" />
   <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" groups="pdk-cw-fs,pdk-fs" remote="cosmic-os" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="cosmic-os" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="cosmic-os" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="cosmic-os" revision="oreo-mr1-ims" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="cosmic-os" revision="oreo-mr1-ims" />
   
   <!-- System Resources -->
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="cosmic-os" />
@@ -148,6 +148,6 @@
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom-opensource_dataservices" remote="cosmic-os" />
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom-opensource_interfaces" remote="cosmic-os" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom-opensource_cryptfs_hw" remote="cosmic-os" />
-  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony"  remote="cosmic-os" />  
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony"  remote="cosmic-os" revision="oreo-mr1-ims" />
 
 </manifest>
