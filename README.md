@@ -16,7 +16,7 @@ familiar with [Git and Repo](http://source.android.com/source/version-control.ht
 Initialize the Repositories 
 ---------------------------
 
-    repo init -u https://github.com/Cosmic-OS/platform_manifest.git -b oreo-mr1
+    repo init -u https://github.com/Cosmic-OS/platform_manifest.git -b oreo-mr1-ims
     repo sync --no-tags --no-clone-bundle --force-sync -c
 
  -j# -Set jobs by just replacing # with what you wish
