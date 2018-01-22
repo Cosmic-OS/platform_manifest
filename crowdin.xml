@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <manifest>
+  <default revision="oreo-mr1"
+           remote="cosmic-os" />
+
+  <remote  name="cosmic-os"
+           fetch="https://github.com/Cosmic-OS/" />
+
+  <!-- Crowdin -->
+  <project name="crowdin" path="crowdin" remote="cosmic-os" revision="master" />
+
+  <!-- Frameworks -->
+  <project name="frameworks_base" path="frameworks/base" remote="cosmic-os" />
+
+  <!-- Manifest -->
+  <project name="manifest" path="manifest" remote="cosmic-os" />
+
+  <!-- Apps -->
+  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="cosmic-os" />
+  <project name="packages_apps_Galaxy" path="packages/apps/Galaxy" remote="cosmic-os" />
+
+</manifest>
