@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- HALS -->
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="laos" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="laos" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" groups="qcom,qcom_audio" remote="laos" revision="lineage-15.1-caf-8084" />
   <project name="GZOSP/hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" groups="qcom,qcom_audio" remote="github" revision="8.1-caf-8916" />
