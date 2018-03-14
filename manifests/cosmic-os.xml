@@ -142,6 +142,7 @@
 
   <!-- Qualcomm Extras -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cosmic-os" />
+  <project path="device/cosmic/sepolicy" name="device_cosmic_sepolicy" remote="cosmic-os" />
 
   <!-- Vendors -->
   <project path="vendor/cos" name="platform_vendor_cos" remote="cosmic-os" >
