@@ -130,13 +130,9 @@
   <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="cosmic-os" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="cosmic-os" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="cosmic-os" />
-  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" groups="qcom" remote="cosmic-os" />
-  <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt" groups="qcom" revision="oreo-mr1-caf" remote="cosmic-os" />
   <project path="hardware/qcom/fm" name="platform_hardware_qcom_fm" groups="qcom,qcom_fm" remote="cosmic-os" />
   <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" groups="qcom,qcom_gps" remote="cosmic-os" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="cosmic-os" />
-  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" groups="qcom_wlan" remote="cosmic-os" />
-  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" groups="qcom_wlan" revision="oreo-mr1-caf" remote="cosmic-os" />
   <project path="hardware/ril" name="platform_hardware_ril" groups="pdk" remote="cosmic-os" />
   <project path="hardware/ril-caf" name="platform_hardware_ril" groups="pdk" revision="oreo-mr1-caf" remote="cosmic-os" />
 
