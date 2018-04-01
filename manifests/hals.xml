@@ -33,7 +33,7 @@
   <project name="android_hardware_qcom_power" path="hardware/qcom/power" remote="laos" revision="lineage-15.1" />
   <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="laos" />
   <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" remote="laos" revision="lineage-15.1-caf" />
-  <project name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="laos" />
-  <project name="android_hardware_qcom_bt" path="hardware/qcom/bt-caf" remote="laos" revision="lineage-15.1-caf" />
+  <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="cosmic-os" />
+  <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt-caf" remote="cosmic-os" revision="oreo-mr1-caf" />
 
 </manifest>
