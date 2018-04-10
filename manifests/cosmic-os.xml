@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Cosmic-OS -->
-
+  <project path="manifest" name="platform_manifest" remote="cosmic-os" />
   <project path="bionic" name="platform_bionic" remote="cosmic-os" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="cosmic-os" />
   <project path="build/kati" name="platform_build_kati" remote="cosmic-os" />
@@ -29,6 +29,8 @@
   <project path="frameworks/av" name="platform_frameworks_av" remote="cosmic-os" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="cosmic-os" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="cosmic-os" />
+  <project path="frameworks/opt/datetimepicker" name="platform_frameworks_opt_datetimepicker" groups="pdk" remote="cosmic-os" />  
+  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="pdk" remote="cosmic-os" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="cosmic-os" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="cosmic-os" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="cosmic-os" />

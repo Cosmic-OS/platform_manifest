@@ -25,6 +25,7 @@
           sync-c="true"
           sync-j="4" />
 
+  <project path="art" name="platform/art" groups="pdk" />
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
@@ -43,6 +44,7 @@
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/abi-compliance-checker" name="platform/external/abi-compliance-checker" groups="pdk" />
   <project path="external/abi-dumper" name="platform/external/abi-dumper" groups="pdk" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault,pdk-fs" />
@@ -52,6 +54,7 @@
   <project path="external/antlr" name="platform/external/antlr" groups="pdk" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk" />
+  <project path="external/apache-http" name="platform/external/apache-http" groups="pdk" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" />
   <project path="external/archive-patcher" name="platform/external/archive-patcher" groups="pdk" />
   <project path="external/arm-neon-tests" name="platform/external/arm-neon-tests" groups="vendor" />
@@ -60,9 +63,11 @@
   <project path="external/bart" name="platform/external/bart" groups="pdk" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk" />
+  <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/brotli" name="platform/external/brotli" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
+  <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/c-ares" name="platform/external/c-ares" groups="pdk" />
   <project path="external/caliper" name="platform/external/caliper" groups="pdk" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" />
@@ -100,10 +105,12 @@
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fec" name="platform/external/fec" groups="pdk" />
   <project path="external/fio" name="platform/external/fio" groups="pdk" />
+  <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/flatbuffers" name="platform/external/flatbuffers" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk" />
   <project path="external/fmtlib" name="platform/external/fmtlib" groups="pdk" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
+  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk" />
   <project path="external/gemmlowp" name="platform/external/gemmlowp" groups="pdk" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" />
   <project path="external/glide" name="platform/external/glide" groups="pdk" />
@@ -116,20 +123,27 @@
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk" />
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk" />
   <project path="external/googletest" name="platform/external/googletest" groups="pdk" />
+  <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk" />
   <project path="external/guava" name="platform/external/guava" groups="pdk" />
   <project path="external/guice" name="platform/external/guice" groups="pdk" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk" />
+  <project path="external/icu" name="platform/external/icu" groups="pdk" />
   <project path="external/ImageMagick" name="platform/external/ImageMagick" groups="pdk" />
   <project path="external/ims" name="platform/external/ims" groups="pdk" />
+  <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
+  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk" />
+  <project path="external/iptables" name="platform/external/iptables" groups="pdk" />
   <project path="external/iputils" name="platform/external/iputils" groups="pdk" />
+  <project path="external/iw" name="platform/external/iw" groups="pdk" />
   <project path="external/jacoco" name="platform/external/jacoco" groups="pdk" />
   <project path="external/jarjar" name="platform/external/jarjar" groups="pdk" />
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk" />
   <project path="external/javassist" name="platform/external/javassist" groups="pdk" />
   <project path="external/jcommander" name="platform/external/jcommander" groups="pdk" />
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk" />
+  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" />
   <project path="external/jline" name="platform/external/jline" groups="pdk,tradefed,pdk-fs" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk" />
@@ -160,6 +174,7 @@
   <project path="external/libevent" name="platform/external/libevent" groups="pdk" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
+  <project path="external/libhevc" name="platform/external/libhevc" groups="pdk" />
   <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" />
   <project path="external/libldac" name="platform/external/libldac" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
@@ -167,6 +182,8 @@
   <project path="external/libmojo" name="platform/external/libmojo" groups="pdk" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk" />
+  <project path="external/libnetfilter_conntrack" name="platform/external/libnetfilter_conntrack" groups="pdk" />
+  <project path="external/libnfnetlink" name="platform/external/libnfnetlink" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
@@ -180,6 +197,7 @@
   <project path="external/libvncserver" name="platform/external/libvncserver" groups="pdk" />
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
+  <project path="external/libvterm" name="platform/external/libvterm" groups="pdk" />
   <project path="external/libxml2" name="platform/external/libxml2" groups="pdk,libxml2" />
   <project path="external/libtextclassifier" name="platform/external/libtextclassifier" groups="pdk" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="pdk,libyuv" />
@@ -219,6 +237,7 @@
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/openssh" name="platform/external/openssh" groups="pdk" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" />
@@ -242,6 +261,7 @@
   <project path="external/seccomp-tests" name="platform/external/seccomp-tests" groups="pdk" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
+  <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
   <project path="external/sl4a" name="platform/external/sl4a" groups="pdk" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk" />
   <project path="external/smali" name="platform/external/smali" groups="pdk" />
@@ -456,11 +476,13 @@
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" />
   <project path="system/chre" name="platform/system/chre" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
+  <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/libfmq" name="platform/system/libfmq" groups="pdk" />
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" />
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" />
+  <project path="system/netd" name="platform/system/netd" groups="pdk" /> 
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk" />
