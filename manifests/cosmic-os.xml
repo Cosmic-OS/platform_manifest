@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Manifest & Build Environment -->
-  <project path="manifest" name="platform_manifest" remote="cosmic-os" />
-  <project path="build/make" name="platform_build" groups="pdk" remote="cosmic-os" >
+  <!-- Cosmic-OS -->
+
+  <project path="bionic" name="platform_bionic" remote="cosmic-os" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="cosmic-os" />
+  <project path="build/kati" name="platform_build_kati" remote="cosmic-os" />
+  <project path="build/make" name="platform_build" remote="cosmic-os" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -12,75 +15,44 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-
-  <!-- External Packages -->
-  <project path="external/aac" name="platform_external_aac" groups="pdk" remote="cosmic-os" />
-  <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="cosmic-os" />
-  <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="cosmic-os" />
-  <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="cosmic-os" />
-  <project path="external/apache-http" name="platform_external_apache-http" groups="pdk" remote="cosmic-os" />
-  <project path="external/bash" name="platform_external_bash" remote="cosmic-os" />
-  <project path="external/boringssl" name="platform_external_boringssl" groups="pdk" remote="cosmic-os" />
-  <project path="external/brctl" name="platform_external_brctl" remote="cosmic-os" />
-  <project path="external/bson" name="platform_external_bson" remote="cosmic-os" />
-  <project path="external/bzip2" name="platform_external_bzip2" groups="pdk" remote="cosmic-os" />
-  <project path="external/connectivity" name="platform_external_connectivity" remote="cosmic-os" />
-  <project path="external/DUtils" name="platform_external_DUtils" groups="pdk" remote="cosmic-os" />
-  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" groups="pdk" remote="cosmic-os" />
-  <project path="external/ebtables" name="platform_external_ebtables" remote="cosmic-os" />
-  <project path="external/elfutils" name="platform_external_elfutils" groups="pdk" remote="cosmic-os" />
-  <project path="external/exfat" name="platform_external_exfat" remote="cosmic-os" />
-  <project path="external/f2fs-tools" name="platform_external_f2fs-tools" groups="pdk" remote="cosmic-os" />
-  <project path="external/flac" name="platform_external_flac" groups="pdk" remote="cosmic-os" />
-  <project path="external/fsck_msdos" name="platform_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" remote="cosmic-os" />
-  <project path="external/fuse" name="platform_external_fuse" remote="cosmic-os" />
-  <project path="external/gptfdisk" name="platform_external_gptfdisk" groups="pdk-fs" remote="cosmic-os" />
-  <project path="external/htop" name="platform_external_htop" remote="cosmic-os" />
-  <project path="external/icu" name="platform_external_icu" groups="pdk" remote="cosmic-os" />
-  <project path="external/iproute2" name="platform_external_iproute2" groups="pdk" remote="cosmic-os" />
-  <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="cosmic-os" />
-  <project path="external/iptables" name="platform_external_iptables" groups="pdk-cw-fs,pdk-fs" remote="cosmic-os" />
-  <project path="external/iw" name="platform_external_iw" remote="cosmic-os" />
-  <project path="external/jemalloc"  name="platform_external_jemalloc" groups="pdk" remote="cosmic-os" />
-  <project path="external/json-c" name="platform_external_json-c" remote="cosmic-os" />
-  <project path="external/libhevc" name="platform_external_libhevc" groups="pdk-fs" remote="cosmic-os" />
-  <project path="external/libncurses" name="platform_external_libncurses" remote="cosmic-os" />
-  <project path="external/libnetfilter_conntrack" name="platform_external_libnetfilter_conntrack" remote="cosmic-os" />
-  <project path="external/libnfnetlink" name="platform_external_libnfnetlink" remote="cosmic-os" />
-  <project path="external/libnfc-nxp" name="platform_external_libnfc-nxp" groups="pdk" remote="cosmic-os" />
-  <project path="external/libvterm" name="platform_external_libvterm" groups="pdk-cw-fs,pdk-fs" remote="cosmic-os" />
-  <project path="external/mksh" name="platform_external_mksh" groups="pdk" remote="cosmic-os" />
-  <project path="external/ntfs-3g" name="platform_external_ntfs-3g" groups="pdk" remote="cosmic-os" />
-  <project path="external/nano" name="platform_external_nano" remote="cosmic-os" />
-  <project path="external/openssh" name="platform_external_openssh" remote="cosmic-os" />
-  <project path="external/powertop" name="platform_external_powertop" remote="cosmic-os" />
-  <project path="external/selinux" name="platform_external_selinux" groups="pdk" remote="cosmic-os" />
-  <project path="external/skia" name="platform_external_skia" groups="pdk,qcom_msm8x26" remote="cosmic-os" />
-  <project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="cosmic-os" />
-  <project path="external/toybox" name="platform_external_toybox" groups="pdk" remote="cosmic-os" />
-
-  <!-- Frameworks -->
-  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="cosmic-os" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="cosmic-os" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="cosmic-os" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="cosmic-os" />
-  <project path="frameworks/opt/datetimepicker" name="platform_frameworks_opt_datetimepicker" groups="pdk" remote="cosmic-os" />  
-  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="pdk" remote="cosmic-os" />
-  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="cosmic-os" />
-  <project path="frameworks/support" name="platform_frameworks_support" groups="pdk" remote="cosmic-os" />
-
-  <!-- Framework dependents -->
-  <project path="art" name="platform_art" groups="pdk" remote="cosmic-os" />
-  <project path="bionic" name="platform_bionic" groups="pdk" remote="cosmic-os" />
-  <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="cosmic-os" />
-  <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="cosmic-os" />
-  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="cosmic-os">
+  <project path="build/soong" name="platform_build_soong" remote="cosmic-os" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="development" name="platform_development" groups="pdk-cw-fs,pdk-fs" remote="cosmic-os" />
-  
-  <!-- System Packages -->
+
+  <project path="device/cosmic/sepolicy" name="device_cosmic_sepolicy" remote="cosmic-os" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cosmic-os" />
+
+  <project path="external/DUtils" name="platform_external_DUtils" remote="cosmic-os" />
+  <project path="external/selinux" name="platform_external_selinux" remote="cosmic-os" /> 
+
+  <project path="frameworks/av" name="platform_frameworks_av" remote="cosmic-os" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="cosmic-os" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="cosmic-os" />
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="cosmic-os" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="cosmic-os" />
+  <project path="frameworks/support" name="platform_frameworks_support" remote="cosmic-os" />
+
+  <project path="hardware/cosmic/interfaces" name="platform_hardware_cosmic_interfaces" remote="cosmic-os" >
+    <copyfile dest="hardware/cosmic/Android.bp" src="Android.bp"/>
+  </project>
+
+  <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="cosmic-os" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="cosmic-os" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="cosmic-os" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="cosmic-os" />
+  <project path="hardware/qcom/audio/default" name="platform_hardware_qcom_audio" remote="cosmic-os" />
+  <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl" remote="cosmic-os" />
+  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="cosmic-os" />
+  <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt" remote="cosmic-os" revision="oreo-mr1-caf" />
+  <project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" remote="cosmic-os" />
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="cosmic-os" />
+  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="cosmic-os" />
+  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="cosmic-os" />
+  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="cosmic-os" />
+  <project path="hardware/ril" name="platform_hardware_ril" remote="cosmic-os" />
+
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_Calculator" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/Calendar" name="platform_packages_apps_Calendar" groups="pdk-fs" remote="cosmic-os" />
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" groups="pdk-fs" remote="cosmic-os" />
@@ -109,38 +81,18 @@
   <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" groups="pdk-cw-fs,pdk-fs" remote="cosmic-os" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="cosmic-os" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="cosmic-os" />
-  
-  <!-- System Resources -->
-  <project path="system/bt" name="platform_system_bt" groups="pdk" remote="cosmic-os" />
-  <project path="system/core" name="platform_system_core" groups="pdk" remote="cosmic-os" />
-  <project path="system/extras" name="platform_system_extras" groups="pdk" remote="cosmic-os" />
-  <project path="system/libhidl" name="platform_system_libhidl" groups="pdk" remote="cosmic-os" />
-  <project path="system/media" name="platform_system_media" groups="pdk" remote="cosmic-os" />
-  <project path="system/netd" name="platform_system_netd" groups="pdk" remote="cosmic-os" />
-  <project path="system/nfc" name="platform_system_nfc" groups="pdk" remote="cosmic-os" />
-  <project path="system/qcom" name="platform_system_qcom" groups="qcom" remote="cosmic-os" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="cosmic-os" />
-  <project path="system/vold" name="platform_system_vold" groups="pdk" remote="cosmic-os" />
-  <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" groups="pdk" remote="cosmic-os" />
-  
-  <!-- Hardware Resources -->
-  <project path="hardware/cosmic/interfaces" name="platform_hardware_cosmic_interfaces" remote="cosmic-os" >
-    <copyfile dest="hardware/cosmic/Android.bp" src="Android.bp"/>
-  </project>
-  <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="cosmic-os" />
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="cosmic-os" />
-  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="cosmic-os" />
-  <project path="hardware/qcom/fm" name="platform_hardware_qcom_fm" groups="qcom,qcom_fm" remote="cosmic-os" />
-  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" groups="qcom,qcom_gps" remote="cosmic-os" />
-  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="cosmic-os" />
-  <project path="hardware/ril" name="platform_hardware_ril" groups="pdk" remote="cosmic-os" />
-  <project path="hardware/ril-caf" name="platform_hardware_ril" groups="pdk" revision="oreo-mr1-caf" remote="cosmic-os" />
 
-  <!-- Qualcomm Extras -->
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cosmic-os" />
-  <project path="device/cosmic/sepolicy" name="device_cosmic_sepolicy" remote="cosmic-os" />
+  <project path="system/bt" name="platform_system_bt" remote="cosmic-os" />
+  <project path="system/core" name="platform_system_core" remote="cosmic-os" />
+  <project path="system/extras" name="platform_system_extras" remote="cosmic-os" />
+  <project path="system/hwservicemanager" name="platform_system_hwservicemanager" remote="cosmic-os" />
+  <project path="system/libhidl" name="platform_system_libhidl" remote="cosmic-os" />
+  <project path="system/media" name="platform_system_media" remote="cosmic-os" />
+  <project path="system/nfc" name="platform_system_nfc" remote="cosmic-os" />
+  <project path="system/qcom" name="platform_system_qcom" remote="cosmic-os" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="cosmic-os" />
+  <project path="system/vold" name="platform_system_vold" remote="cosmic-os" />
 
-  <!-- Vendors -->
   <project path="vendor/cos" name="platform_vendor_cos" remote="cosmic-os" >
   <copyfile dest="build-cos.sh" src="build-cos.sh"/>
   </project>

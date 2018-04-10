@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- HALS -->
+  <project path="development" name="android_development" remote="laos" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="laos" revision="lineage-15.1" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="laos" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="laos" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="laos" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="laos" />
+  <project path="external/bash" name="android_external_bash" remote="laos" />
+  <project path="external/brctl" name="android_external_brctl" remote="laos" />
+  <project path="external/ebtables" name="android_external_ebtables" remote="laos" />
+  <project path="external/exfat" name="android_external_exfat" remote="laos" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="laos" />
+  <project path="external/fuse" name="android_external_fuse" remote="laos" />
+  <project path="external/htop" name="android_external_htop" remote="laos" />
+  <project path="external/json-c" name="android_external_json-c" remote="laos" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="laos" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="laos" />
+  <project path="external/libtar" name="android_external_libtar" remote="laos" />
+  <project path="external/mksh" name="android_external_mksh" remote="laos" />
+  <project path="external/nano" name="android_external_nano" remote="laos" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="laos" />
+  <project path="external/p7zip" name="android_external_p7zip" remote="laos" />
+  <project path="external/pigz" name="android_external_pigz" remote="laos" />
+  <project path="external/powertop" name="android_external_powertop" remote="laos" />
+  <project path="external/rsync" name="android_external_rsync" remote="laos" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="laos" />
+  <project path="external/toybox" name="android_external_toybox" remote="laos" />
+  <project path="external/unrar" name="android_external_unrar" remote="laos" />
+  <project path="external/vim" name="android_external_vim" remote="laos" />
+  <project path="external/zip" name="android_external_zip" remote="laos" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" remote="laos" revision="lineage-15.1-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" remote="laos" revision="lineage-15.1-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" remote="laos" revision="lineage-15.1-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" remote="laos" revision="lineage-15.1-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" remote="laos" revision="lineage-15.1-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" remote="laos" revision="lineage-15.1-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" remote="laos" revision="lineage-15.1-caf-8998" />
+  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" remote="laos" revision="lineage-15.1-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" remote="laos" revision="lineage-15.1-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" remote="laos" revision="lineage-15.1-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" remote="laos" revision="lineage-15.1-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" remote="laos" revision="lineage-15.1-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" remote="laos" revision="lineage-15.1-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" remote="laos" revision="lineage-15.1-caf-8998" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="laos" revision="lineage-15.1" />
+  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" remote="laos" revision="lineage-15.1-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" remote="laos" revision="lineage-15.1-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" remote="laos" revision="lineage-15.1-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" remote="laos" revision="lineage-15.1-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" remote="laos" revision="lineage-15.1-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" remote="laos" revision="lineage-15.1-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" remote="laos" revision="lineage-15.1-caf-8998" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="laos" revision="lineage-15.1" />
+  <project path="hardware/ril-caf" name="android_hardware_ril" remote="laos" revision="lineage-15.1-caf" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="laos" revision="lineage-15.1" />
+  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="laos" revision="lineage-15.1-caf" />
+
+</manifest>
