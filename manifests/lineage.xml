@@ -11,6 +11,7 @@
   <project path="external/bash" name="android_external_bash" remote="laos" />
   <project path="external/brctl" name="android_external_brctl" remote="laos" />
   <project path="external/bson" name="android_external_bson" remote="laos" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="laos" />
   <project path="external/ebtables" name="android_external_ebtables" remote="laos" />
   <project path="external/elfutils" name="android_external_elfutils" groups="pdk" remote="laos" />
   <project path="external/exfat" name="android_external_exfat" remote="laos" />
