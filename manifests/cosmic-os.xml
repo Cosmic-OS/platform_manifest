@@ -23,6 +23,7 @@
   <project path="device/cosmic/sepolicy" name="device_cosmic_sepolicy" remote="cosmic-os" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cosmic-os" />
 
+  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="cosmic-os" /> 
   <project path="external/DUtils" name="platform_external_DUtils" remote="cosmic-os" />
   <project path="external/selinux" name="platform_external_selinux" remote="cosmic-os" /> 
 
