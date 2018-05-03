@@ -59,5 +59,6 @@
   <project path="hardware/ril-caf" name="android_hardware_ril" remote="laos" revision="lineage-15.1-caf" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="laos" revision="lineage-15.1" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="laos" revision="lineage-15.1-caf" />
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="laos" revision="lineage-15.1" />
 
 </manifest>
