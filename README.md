@@ -5,8 +5,12 @@ Cosmic-OS
 
 Credits 
 -------
- * [**LineageOS/Cyanogenmod**](https://github.com/LineageOS)
- * [**AOSCP**](https://github.com/cypheros/)
+ * [**Nitrogen Project**](https://github.com/nitrogen-project)
+ * [**LineageOS**](https://github.com/LineageOS)
+ * [**AOSCP**](https://github.com/CypherOS)
+ * [**OmniROM**](https://github.com/Omnirom)
+ * [**ABC ROM**](https://github.com/ezio84)
+ * [**Dirty Unicorns**](https://github.com/dirtyunicorns)
 
 Getting Started 
 --------------- 
