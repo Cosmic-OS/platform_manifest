@@ -32,7 +32,7 @@ Building the System
  Just replace #device with your device name 
 
  EG 
-    . build-cos.sh  berkely
+    . build-cos.sh berkeley
 
  OR
 
