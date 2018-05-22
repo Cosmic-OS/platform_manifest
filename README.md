@@ -1,4 +1,4 @@
-<img src="https://github.com/Cosmic-OS/platform_manifest/raw/oreo-mr1/cosmic-os-logo.png"> 
+<img src="https://github.com/Cosmic-OS/platform_manifest/raw/pulsar-release/cosmic-os-logo.png"> 
 
 Cosmic-OS
 =========
@@ -16,7 +16,7 @@ familiar with [Git and Repo](http://source.android.com/source/version-control.ht
 Initialize the Repositories 
 ---------------------------
 
-    repo init -u https://github.com/Cosmic-OS/platform_manifest.git -b oreo-mr1
+    repo init -u https://github.com/Cosmic-OS/platform_manifest.git -b pulsar-release
     repo sync --no-tags --no-clone-bundle --force-sync -c
 
  -j# -Set jobs by just replacing # with what you wish
