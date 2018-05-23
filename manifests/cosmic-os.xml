@@ -80,6 +80,7 @@
   <project path="system/core" name="platform_system_core" remote="cosmic-os" />
   <project path="system/media" name="platform_system_media" remote="cosmic-os" />
   <project path="system/nfc" name="platform_system_nfc" remote="cosmic-os" />
+  <project path="system/qcom" name="platform_system_qcom" remote="cosmic-os" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="cosmic-os" />
   <project path="system/tools/hidl" name="platform_system_tools_hidl" remote="cosmic-os" />
   <project path="system/vold" name="platform_system_vold" remote="cosmic-os" />
