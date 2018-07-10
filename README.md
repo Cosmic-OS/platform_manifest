@@ -1,4 +1,4 @@
-<img src="https://github.com/Cosmic-OS/platform_manifest/raw/pulsar-release/cosmic-os-logo.png"> 
+<img src="https://raw.githubusercontent.com/Cosmic-OS/platform_packages_apps_Settings/pulsar-release/res/drawable/cos_about_logo.png"> 
 
 Cosmic-OS
 =========
