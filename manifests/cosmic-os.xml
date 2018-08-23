@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <remote name="cosmic-os"
+          fetch="https://github.com/Cosmic-OS"
+          revision="refs/heads/corona-release" />
+
+  <remote name="devices"
+          fetch="https://github.com/Cosmic-Devices"
+          revision="refs/heads/corona-release" />
+
+  <!-- CodeAurora additions -->
+  <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="cosmic-os" />
+  <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="cosmic-os" />
+  <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="cosmic-os" />
+  <project path="external/brctl" name="platform_external_brctl" remote="cosmic-os" />
+  <project path="external/connectivity" name="platform_external_connectivity" remote="cosmic-os" />
+  <project path="external/ebtables" name="platform_external_ebtables" remote="cosmic-os" />
+  <project path="external/json-c" name="platform_external_json-c" remote="cosmic-os" />
+  <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="cosmic-os" />
+  <project path="hardware/broadcom/wlan" name="platform_hardware_broadcom_wlan" remote="cosmic-os" />
+  <project path="hardware/qcom/audio/default" name="platform_hardware_qcom_audio" remote="cosmic-os" />
+  <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl" remote="cosmic-os" />
+  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="cosmic-os" />
+  <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt" revision="corona-release-caf" remote="cosmic-os" />
+  <project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" remote="cosmic-os" />
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="cosmic-os" />
+  <project path="hardware/qcom/fm" name="platform_hardware_qcom_fm" remote="cosmic-os" />
+  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="cosmic-os" />
+  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="cosmic-os" />
+  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="cosmic-os" />
+  <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="cosmic-os" />
+  <project path="hardware/qcom/thermal" name="platform_hardware_qcom_thermal" remote="cosmic-os" />
+  <project path="hardware/qcom/vr" name="platform_hardware_qcom_vr" remote="cosmic-os" />
+  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="cosmic-os" />
+  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" revision="corona-release-caf" remote="cosmic-os" />
+  <project path="hardware/ril" name="platform_hardware_ril" remote="cosmic-os" />
+  <project path="hardware/ril-caf" name="platform_hardware_ril" revision="corona-release-caf" remote="cosmic-os" />
+  <project path="system/qcom" name="platform_system_qcom" remote="cosmic-os" />
+  <project path="system/tools/dtbtool" name="platform_system_tools_dtbtool" remote="cosmic-os" />
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="cosmic-os" />
+  <project path="vendor/nxp/interfaces/opensource/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="cosmic-os">
+    <linkfile dest="vendor/nxp/interfaces/Android.bp" src="prop_pickup.bp"/>
+  </project>
+  <project path="vendor/nxp/opensource/external/libnfc-nci" name="platform_vendor_nxp_opensource_external_libnfc-nci" remote="cosmic-os" />
+  <project path="vendor/nxp/opensource/frameworks" name="platform_vendor_nxp_opensource_frameworks" remote="cosmic-os" />
+  <project path="vendor/nxp/opensource/packages/apps/Nfc" name="platform_vendor_nxp_opensource_packages_apps_Nfc" remote="cosmic-os" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="cosmic-os" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="cosmic-os" />
+  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="cosmic-os">
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+  </project>
+  <project path="vendor/qcom/opensource/rcs-service" name="platform_vendor_qcom_opensource_rcs-service" remote="cosmic-os" />
+
+  <!-- External repos -->
+  <project path="external/selinux" name="platform_external_selinux" remote="cosmic-os" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="cosmic-os" />
+  <project path="external/exfat" name="platform_external_exfat" remote="cosmic-os" />
+  <project path="external/fuse" name="platform_external_fuse" remote="cosmic-os" />
+  <project path="external/libnfc-nxp" name="platform_external_libnfc-nxp" remote="cosmic-os" />
+  <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="cosmic-os" />
+  <project path="external/perfetto" name="platform_external_perfetto" remote="cosmic-os" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="platform_frameworks_av" remote="cosmic-os" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="cosmic-os" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="cosmic-os" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="cosmic-os" />
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="cosmic-os" />
+  <project path="frameworks/support" name="platform_frameworks_support" remote="cosmic-os" />
+
+  <!-- General repos -->
+  <project path="art" name="platform_art" remote="cosmic-os" />
+  <project path="bionic" name="platform_bionic" remote="cosmic-os" />
+  <project path="build/make" name="platform_build" remote="cosmic-os">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="platform_build_soong" remote="cosmic-os">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="build/kati" name="platform_build_kati" remote="cosmic-os" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="cosmic-os" />
+  <project path="development" name="platform_development" remote="cosmic-os" />
+  <project path="vendor/cos" name="platform_vendor_cos" remote="cosmic-os" >
+  <copyfile dest="build-cos.sh" src="build-cos.sh"/>
+  </project>
+
+  <!-- Hardware repos -->
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="cosmic-os" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="cosmic-os" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="cosmic-os" />
+  <project path="packages/apps/ExactCalculator" name="platform_packages_apps_Calculator" groups="pdk-fs" remote="cosmic-os" />
+  <project path="packages/apps/Calendar" name="platform_packages_apps_Calendar" groups="pdk-fs" remote="cosmic-os" />
+  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" groups="pdk-fs" remote="cosmic-os" />
+  <project path="packages/apps/CarrierConfig" name="platform_packages_apps_CarrierConfig" remote="cosmic-os" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform_packages_apps_CellBroadcastReceiver" remote="cosmic-os" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="cosmic-os" />
+  <project path="packages/apps/CosmicWalls" name="platform_packages_apps_CosmicWalls" groups="pdk-fs" remote="cosmic-os" />
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" groups="pdk-fs" remote="cosmic-os" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="cosmic-os" />
+  <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="cosmic-os" />
+  <project path="packages/apps/Email" name="platform_packages_apps_Email" groups="pdk-fs" remote="cosmic-os" />
+  <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" remote="cosmic-os" />
+  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" groups="pdk-fs" remote="cosmic-os" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="cosmic-os" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" groups="pdk-fs" remote="cosmic-os" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="cosmic-os" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="cosmic-os" />
+  <project path="packages/apps/UnifiedEmail" name="platform_packages_apps_UnifiedEmail" groups="pdk-fs" remote="cosmic-os" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="cosmic-os" />
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="cosmic-os" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="cosmic-os" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="cosmic-os" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="cosmic-os" clone-depth="1" />
+
+  <!-- System Repos -->
+  <project path="system/bt" name="platform_system_bt" remote="cosmic-os" />
+  <project path="system/core" name="platform_system_core" remote="cosmic-os" />
+  <project path="system/extras" name="platform_system_extras" remote="cosmic-os" />
+  <project path="system/security" name="platform_system_security" remote="cosmic-os" />
+  <project path="system/vold" name="platform_system_vold" remote="cosmic-os" />
+
+</manifest>

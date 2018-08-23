@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
+  <remote name="aosp"
+          fetch="https://android.googlesource.com"
+          review="https://android-review.googlesource.com/" />
+
+  <remote name="github"
+          fetch="https://github.com/" />
+
   <default revision="refs/tags/android-9.0.0_r1"
            remote="aosp"
            sync-j="4" />
@@ -697,5 +701,12 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- Remove unused AOSP repos -->
+  <include name="manifests/remove.xml" />
+
+  <!-- Cosmic-OS Additions -->
+  <include name="manifests/cosmic-os.xml" />
+  <include name="manifests/lineage.xml" />
 
 </manifest>
