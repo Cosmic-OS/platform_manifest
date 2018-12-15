@@ -20,7 +20,7 @@
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
 
-  <default revision="refs/tags/android-8.1.0_r46"
+  <default revision="refs/tags/android-8.1.0_r53"
            remote="aosp"
            sync-j="4" />
 
