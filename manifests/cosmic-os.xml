@@ -13,6 +13,7 @@
           revision="refs/heads/corona-release" />
 
   <!-- CodeAurora additions -->
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cosmic-os" />
   <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="cosmic-os" />
   <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="cosmic-os" />
   <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="cosmic-os" />
@@ -91,6 +92,7 @@
   <project path="build/kati" name="platform_build_kati" remote="cosmic-os" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="cosmic-os" />
   <project path="development" name="platform_development" remote="cosmic-os" />
+  <project path="device/cosmic/sepolicy" name="device_cosmic_sepolicy" remote="cosmic-os" />
   <project path="vendor/cos" name="platform_vendor_cos" remote="cosmic-os" >
   <copyfile dest="build-cos.sh" src="build-cos.sh"/>
   </project>
