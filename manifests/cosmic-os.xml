@@ -133,6 +133,7 @@
   <project path="system/core" name="platform_system_core" remote="cosmic-os" />
   <project path="system/extras" name="platform_system_extras" remote="cosmic-os" />
   <project path="system/security" name="platform_system_security" remote="cosmic-os" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="cosmic-os" />
   <project path="system/vold" name="platform_system_vold" remote="cosmic-os" />
 
 </manifest>
