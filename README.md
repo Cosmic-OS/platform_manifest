@@ -11,7 +11,7 @@ Credits
 Getting Started 
 --------------- 
 To get started with the Cosmic-OS sources, you'll need to get 
-familiar with [Git and Repo](http://source.android.com/source/version-control.html). 
+familiar with [Git and Repo](https://source.android.com/setup/develop.html). 
 
 Use corona-release branch for Android Pie and pulsar-release branch for Android Oreo.
 
