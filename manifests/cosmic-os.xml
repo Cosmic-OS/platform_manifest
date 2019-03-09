@@ -98,6 +98,7 @@
   </project>
 
   <!-- Hardware repos -->
+  <project path="hardware/custom/telephony" name="platform_hardware_custom_telephony" remote="cosmic-os" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="cosmic-os" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="cosmic-os" />
 
