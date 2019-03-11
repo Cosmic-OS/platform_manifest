@@ -28,4 +28,8 @@
   <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" groups="qcom" remote="lineage" revision="lineage-16.0-caf-8996" />
   <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8998" groups="qcom" remote="lineage" revision="lineage-16.0-caf-8998" />
 
+  <project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="lineage" revision="lineage-16.0" />
+  <project name="android_hardware_qcom_fm" path="hardware/qcom/fm" remote="lineage" revision="lineage-16.0" />
+  <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="lineage" revision="lineage-16.0" />
+
 </manifest>

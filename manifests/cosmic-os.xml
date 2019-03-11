@@ -27,10 +27,7 @@
   <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl" remote="cosmic-os" />
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="cosmic-os" />
   <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt" revision="corona-release-caf" remote="cosmic-os" />
-  <project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" remote="cosmic-os" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="cosmic-os" />
-  <project path="hardware/qcom/fm" name="platform_hardware_qcom_fm" remote="cosmic-os" />
-  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="cosmic-os" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="cosmic-os" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="cosmic-os" />
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="cosmic-os" />
