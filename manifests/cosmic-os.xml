@@ -47,10 +47,6 @@
   <project path="vendor/nxp/opensource/frameworks" name="platform_vendor_nxp_opensource_frameworks" remote="cosmic-os" />
   <project path="vendor/nxp/opensource/packages/apps/Nfc" name="platform_vendor_nxp_opensource_packages_apps_Nfc" remote="cosmic-os" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="cosmic-os" />
-  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="cosmic-os" />
-  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="cosmic-os">
-    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
-  </project>
   <project path="vendor/qcom/opensource/rcs-service" name="platform_vendor_qcom_opensource_rcs-service" remote="cosmic-os" />
 
   <!-- External repos -->
