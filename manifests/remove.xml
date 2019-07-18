@@ -24,6 +24,9 @@
   <remove-project name="device/google/accessory/demokit" />
   <remove-project name="device/google/atv" />
   <remove-project name="device/google/contexthub" />
+  <remove-project name="device/google/crosshatch" />
+  <remove-project name="device/google/crosshatch-kernel" />
+  <remove-project name="device/google/crosshatch-sepolicy" />
   <remove-project name="device/google/cuttlefish" />
   <remove-project name="device/google/cuttlefish_common" />
   <remove-project name="device/google/cuttlefish_kernel" />
@@ -39,21 +42,25 @@
   <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
   <remove-project name="device/linaro/hikey" />
   <remove-project name="device/linaro/hikey-kernel" />
-  <remove-project name="device/sample" />
 
   <!-- External repos -->
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/elfutils" />
+  <remove-project name="platform/external/f2fs-tools" />
+  <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/libpng" />
+  <remove-project name="platform/external/libtextclassifier" />
+  <remove-project name="platform/external/proguard" />
   <remove-project name="platform/external/selinux" />
-  <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/tinycompress" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
-  <remove-project name="platform/frameworks/opt/net/ims" />
+  <remove-project name="platform/frameworks/opt/net/voip" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/frameworks/opt/telephony" />
-  <remove-project name="platform/frameworks/support" />
 
   <!-- General repos -->
   <remove-project name="kernel/tests" />
@@ -61,7 +68,6 @@
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
-  <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/development" />
 
@@ -82,8 +88,10 @@
   <remove-project name="platform/hardware/intel/img/psb_headers" />
   <remove-project name="platform/hardware/intel/img/psb_video" />
   <remove-project name="platform/hardware/intel/sensors" />
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/bt" />
@@ -102,6 +110,14 @@
   <remove-project name="platform/hardware/qcom/msm8x27" />
   <remove-project name="platform/hardware/qcom/msm8x84" />
   <remove-project name="platform/hardware/qcom/power" />
+  <remove-project name="platform/hardware/qcom/sdm710/display" />
+  <remove-project name="platform/hardware/qcom/sdm845/bt" />
+  <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <remove-project name="platform/hardware/qcom/sdm845/gps" />
+  <remove-project name="platform/hardware/qcom/sdm845/media" />
+  <remove-project name="platform/hardware/qcom/sdm845/thermal" />
+  <remove-project name="platform/hardware/qcom/sdm845/vr" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
 
@@ -111,13 +127,13 @@
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/CarrierConfig" />
-  <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DevCamera" />
   <remove-project name="platform/packages/apps/DeskClock" />
-  <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
+  <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Email" />
+  <remove-project name="platform/packages/apps/EmergencyInfo" />
   <remove-project name="platform/packages/apps/ExactCalculator" />
   <remove-project name="platform/packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/Gallery2" />
@@ -127,12 +143,13 @@
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/SoundRecorder" />
   <remove-project name="platform/packages/apps/SpareParts" />
-  <remove-project name="platform/packages/apps/Tag" />
   <remove-project name="platform/packages/apps/Test/connectivity" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />
   <remove-project name="platform/packages/apps/WallpaperPicker" />
@@ -148,13 +165,18 @@
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
 
   <!-- System repos -->
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/timezone" />
+  <remove-project name="platform/system/tools/hidl" />
+  <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
 
 </manifest>

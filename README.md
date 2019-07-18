@@ -29,15 +29,6 @@ Building the System
 -------------------
  Initialize the ROM environment with the envsetup.sh script. By entering command (i).
 
-    . build-cos.sh #device
-
- Just replace #device with your device name 
-
- EG 
-    . build-cos.sh berkeley
-
- OR
-
      . build/envsetup.sh
      lunch cos_<device>-userdebug
      brunch <device>
