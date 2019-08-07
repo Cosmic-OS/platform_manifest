@@ -41,6 +41,7 @@
   <project path="vendor/themes" name="platform_vendor_themes" remote="cosmic-os" />
   <project path="vendor/pixelstyle" name="platform_vendor_pixelstyle" remote="cosmic-os" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="cosmic-os" />
+  <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="cosmic-os" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="cosmic-os" />
