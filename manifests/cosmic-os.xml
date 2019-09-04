@@ -47,7 +47,7 @@
   <project name="system_vold" path="system/vold" remote="cosmic-os-temp" />
   <project name="vendor_cos" path="vendor/cos" remote="cosmic-os-temp" />
   <project name="vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="cosmic-os-temp" />
-  <project name="platform_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="cosmic-os" />
+  <project name="vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="cosmic-os-temp" />
   <project name="vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="cosmic-os-temp" />
 
   <!-- Lineage Repos -->
