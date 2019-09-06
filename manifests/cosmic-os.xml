@@ -38,6 +38,7 @@
   <project name="platform_frameworks_cosmic" path="frameworks/cosmic" remote="cosmic-os" />
   <project name="platform_hardware_custom_telephony" path="hardware/custom/telephony" remote="cosmic-os" />
   <project name="hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="cosmic-os-temp" />
+  <project name="hardware_libhardware" path="hardware/libhardware" remote="cosmic-os-temp" />
   <project name="platform_hardware_custom_interfaces" path="hardware/custom/interfaces" remote="cosmic-os" />
   <project name="platform_hardware_qcom_power" path="hardware/qcom/power" remote="cosmic-os" />
   <project name="hardware_ril" path="hardware/ril" remote="cosmic-os-temp" />
