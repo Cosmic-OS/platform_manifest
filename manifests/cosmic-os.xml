@@ -58,6 +58,7 @@
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="cosmic-os" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="cosmic-os" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="cosmic-os" />
+  <project path="packages/apps/Longshot" name="platform_packages_apps_Longshot" remote="cosmic-os" />
   <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="cosmic-os" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="cosmic-os" />
   <project path="packages/apps/Recorder" name="platform_packages_apps_Recorder" remote="cosmic-os" />
