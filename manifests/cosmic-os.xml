@@ -33,6 +33,7 @@
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="cosmic-os-temp" />
   <project name="external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="cosmic-os-temp" />
   <project name="platform_external_tinycompress" path="external/tinycompress" remote="cosmic-os" />
+  <project name="external_selinux" path="external/selinux" remote="cosmic-os-temp" />
   <project name="frameworks_av" path="frameworks/av" remote="cosmic-os-temp" />
   <project name="frameworks_base" path="frameworks/base" remote="cosmic-os-temp" />
   <project name="frameworks_native" path="frameworks/native" remote="cosmic-os-temp" />
