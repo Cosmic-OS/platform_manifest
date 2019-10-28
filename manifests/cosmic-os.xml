@@ -29,6 +29,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project name="build_blueprint" path="build/blueprint" groups="pdk" remote="cosmic-os-temp" />
   <project name="device_custom_sepolicy" path="device/custom/sepolicy" remote="cosmic-os-temp" />
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="cosmic-os-temp" />
   <project name="external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="cosmic-os-temp" />
