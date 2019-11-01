@@ -20,6 +20,9 @@
   <remove-project name="device/generic/x86_64" />
   <remove-project name="device/google/atv" />
   <remove-project name="device/google/contexthub" />
+  <remove-project name="device/google/coral"/>
+  <remove-project name="device/google/coral-kernel"/>
+  <remove-project name="device/google/coral-sepolicy"/>
   <remove-project name="device/google/crosshatch"/>
   <remove-project name="device/google/crosshatch-kernel"/>
   <remove-project name="device/google/crosshatch-sepolicy"/>
@@ -65,6 +68,12 @@
   <remove-project name="platform/hardware/qcom/sdm845/media"/>
   <remove-project name="platform/hardware/qcom/sdm845/thermal"/>
   <remove-project name="platform/hardware/qcom/sdm845/vr"/>
+  <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr"/> 
+  <remove-project name="platform/hardware/qcom/sm8150/display"/> 
+  <remove-project name="platform/hardware/qcom/sm8150/gps"/> 
+  <remove-project name="platform/hardware/qcom/sm8150/media"/>
+  <remove-project name="platform/hardware/qcom/sm8150/thermal"/>
+  <remove-project name="platform/hardware/qcom/sm8150/vr"/>
   <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- Remove projects for Cosmic-OS -->
