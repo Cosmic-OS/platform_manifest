@@ -54,6 +54,7 @@
   <project name="system_vold" path="system/vold" remote="cosmic-os-temp" />
   <project name="vendor_cos" path="vendor/cos" remote="cosmic-os-temp" />
   <project name="vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="cosmic-os-temp" />
+  <project name="prebuilts_tools-custom" path="prebuilts/tools-custom" remote="cosmic-os-temp" />
 
   <!-- Lineage Repos -->
   <project name="android_device_qcom_sepolicy-legacy" path="device/qcom/sepolicy-legacy" remote="lineage" revision="lineage-16.0" />
