@@ -46,6 +46,7 @@
   <project name="platform_hardware_custom_interfaces" path="hardware/custom/interfaces" remote="cosmic-os" />
   <project name="platform_hardware_qcom_power" path="hardware/qcom/power" remote="cosmic-os" />
   <project name="hardware_ril" path="hardware/ril" remote="cosmic-os-temp" />
+  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="cosmic-os-temp" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="cosmic-os-temp" />
   <project name="system_bt" path="system/bt" remote="cosmic-os-temp" />
   <project name="system_core" path="system/core" remote="cosmic-os-temp" />
