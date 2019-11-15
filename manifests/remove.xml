@@ -55,6 +55,7 @@
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/broadcom/libbt" />
+  <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- Remove projects for Cosmic-OS -->
   <remove-project name="platform/bionic" />
