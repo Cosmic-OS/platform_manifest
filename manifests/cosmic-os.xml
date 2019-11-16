@@ -48,6 +48,7 @@
   <project name="hardware_ril" path="hardware/ril" remote="cosmic-os-temp" />
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="cosmic-os-temp" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="cosmic-os-temp" />
+  <project name="packages_apps_Nfc" path="packages/apps/Nfc" remote="cosmic-os-temp" />
   <project name="system_bt" path="system/bt" remote="cosmic-os-temp" />
   <project name="system_core" path="system/core" remote="cosmic-os-temp" />
   <project name="system_sepolicy" path="system/sepolicy" remote="cosmic-os-temp" />
