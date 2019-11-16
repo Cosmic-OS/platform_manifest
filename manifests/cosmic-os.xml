@@ -57,7 +57,7 @@
   <project name="prebuilts_tools-custom" path="prebuilts/tools-custom" remote="cosmic-os-temp" />
 
   <!-- Lineage Repos -->
-  <project name="android_device_qcom_sepolicy-legacy" path="device/qcom/sepolicy-legacy" remote="lineage" revision="lineage-16.0" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" revision="lineage-17.0-legacy-um" remote="lineage" />
   <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" />
   <project name="android_system_update_engine" path="system/update_engine" remote="lineage" />
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="lineage" />
