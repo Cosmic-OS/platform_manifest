@@ -35,6 +35,7 @@
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
   <remove-project name="platform/vendor/qcom-opensource/data-kernel"/>
+  <remove-project name="platform/vendor/qcom-opensource/core-utils"/>
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
   <remove-project name="platform/vendor/qcom-opensource/interfaces" />
