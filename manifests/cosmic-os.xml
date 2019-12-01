@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="cosmic-os"
-          fetch="https://github.com/Cosmic-OS"
-          revision="refs/heads/corona-release" />
+  <remote  name="cosmic-os"
+           fetch="https://github.com/Cosmic-OS"
+           revision="quasar-release" />
 
-  <remote name="devices"
-          fetch="https://github.com/Cosmic-Devices"
-          revision="refs/heads/corona-release" />
+  <remote  name="devices"
+           fetch="https://github.com/Cosmic-Devices"
+           revision="quasar-release" />
 
-  <remote name="cosmic-os-temp"
-          fetch="https://github.com/cos-temp"
-          revision="refs/heads/q-staging" />
+  <remote  name="github"
+           fetch="https://github.com/" />
 
-  <!-- Cosmic-OS repos -->
-  <project name="bionic" path="bionic" remote="cosmic-os-temp" />
-  <project name="bootable_recovery" path="bootable/recovery" remote="cosmic-os-temp" />
-  <project name="build_make" path="build/make" groups="pdk" remote="cosmic-os-temp">
+  <remote  name="aosp"
+           revision="refs/tags/android-10.0.0_r11"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+
+  <!-- Manifest -->
+  <project path="manifest" name="platform_manifest" remote="cosmic-os" groups="cosmic-os" />
+
+  <!-- Build repositories -->
+  <project path="build/make" name="platform_build" remote="cosmic-os" groups="cosmic-os" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -25,47 +30,64 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project name="build_soong" path="build/soong" remote="cosmic-os-temp" groups="pdk,tradefed" >
+  <project path="build/blueprint" name="platform_build_blueprint" remote="cosmic-os" groups="cosmic-os" />
+  <project path="build/soong" name="platform_build_soong" remote="cosmic-os" groups="cosmic-os" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project name="build_blueprint" path="build/blueprint" groups="pdk" remote="cosmic-os-temp" />
-  <project name="device_custom_sepolicy" path="device/custom/sepolicy" remote="cosmic-os-temp" />
-  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="cosmic-os-temp" />
-  <project name="external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="cosmic-os-temp" />
-  <project name="platform_external_tinycompress" path="external/tinycompress" remote="cosmic-os" />
-  <project name="external_selinux" path="external/selinux" remote="cosmic-os-temp" />
-  <project name="frameworks_av" path="frameworks/av" remote="cosmic-os-temp" />
-  <project name="frameworks_base" path="frameworks/base" remote="cosmic-os-temp" />
-  <project name="frameworks_native" path="frameworks/native" remote="cosmic-os-temp" />
-  <project name="platform_frameworks_cosmic" path="frameworks/cosmic" remote="cosmic-os" />
-  <project name="platform_hardware_custom_telephony" path="hardware/custom/telephony" remote="cosmic-os" />
-  <project name="hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="cosmic-os-temp" />
-  <project name="hardware_libhardware" path="hardware/libhardware" remote="cosmic-os-temp" />
-  <project name="hardware_interfaces" path="hardware/interfaces" remote="cosmic-os-temp" />
-  <project name="platform_hardware_custom_interfaces" path="hardware/custom/interfaces" remote="cosmic-os" />
-  <project name="platform_hardware_qcom_power" path="hardware/qcom/power" remote="cosmic-os" />
-  <project name="hardware_ril" path="hardware/ril" remote="cosmic-os-temp" />
-  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="cosmic-os-temp" />
-  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="cosmic-os-temp" />
-  <project name="packages_apps_Nfc" path="packages/apps/Nfc" remote="cosmic-os-temp" />
-  <project name="system_bt" path="system/bt" remote="cosmic-os-temp" />
-  <project name="system_core" path="system/core" remote="cosmic-os-temp" />
-  <project name="system_sepolicy" path="system/sepolicy" remote="cosmic-os-temp" />
-  <project name="system_vold" path="system/vold" remote="cosmic-os-temp" />
-  <project name="vendor_cos" path="vendor/cos" remote="cosmic-os-temp" />
-  <project name="vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="cosmic-os-temp" />
-  <project name="prebuilts_tools-custom" path="prebuilts/tools-custom" remote="cosmic-os-temp" />
 
-  <!-- Lineage Repos -->
-  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" revision="lineage-17.0-legacy-um" remote="lineage" />
-  <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" />
-  <project name="android_system_update_engine" path="system/update_engine" remote="lineage" />
-  <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="lineage" />
-  <project name="android_external_exfat" path="external/exfat" remote="lineage" />
-  <project name="android_external_libnfc-nxp" path="external/libnfc-nxp" remote="lineage" />
-  <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="lineage" />
+  <!-- Hardware -->
+  <project path="device/qcom/common" name="device_qcom_common" remote="cosmic-os" groups="cosmic-os" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cosmic-os" groups="cosmic-os" />
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="cosmic-os" groups="cosmic-os" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="cosmic-os" groups="cosmic-os" />
+  <project path="hardware/custom/interfaces" name="platform_hardware_custom_interfaces" remote="cosmic-os" groups="cosmic-os" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="cosmic-os" groups="cosmic-os" />
+  <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl" remote="cosmic-os" groups="cosmic-os" />
 
-  <!-- Hardware repos -->
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan-caf" remote="cosmic-os-temp" />
+  <!-- Native -->
+  <project path="bionic" name="platform_bionic" remote="cosmic-os" groups="cosmic-os" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="platform_frameworks_av" remote="cosmic-os" groups="cosmic-os" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="cosmic-os" groups="cosmic-os" />
+  <project path="frameworks/cosmic" name="platform_frameworks_cosmic" remote="cosmic-os" groups="cosmic-os" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="cosmic-os" groups="cosmic-os" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="cosmic-os" groups="cosmic-os" />
+
+  <!-- Packages -->
+  <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="cosmic-os" groups="cosmic-os" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="cosmic-os" groups="cosmic-os" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="cosmic-os" groups="cosmic-os" />
+
+  <!-- External -->
+  <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="cosmic-os" groups="cosmic-os" />
+  <project path="external/exfat" name="platform_external_exfat" remote="cosmic-os" groups="cosmic-os" />
+  <project path="external/selinux" name="platform_external_selinux" remote="cosmic-os" groups="cosmic-os" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="cosmic-os" groups="cosmic-os" />
+  <project path="prebuilts/openssl" name="platform_prebuilts_openssl" remote="cosmic-os" groups="cosmic-os" />
+  <project path="prebuilts/r8" name="platform_prebuilts_r8" remote="cosmic-os" groups="cosmic-os" />
+  <project path="prebuilts/tools-custom" name="platform_prebuilts_tools-custom" remote="cosmic-os" groups="cosmic-os" />
+
+  <!-- System -->
+  <project path="system/core" name="platform_system_core" remote="cosmic-os" groups="cosmic-os" />
+  <project path="system/vold" name="platform_system_vold" remote="cosmic-os" groups="cosmic-os" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="cosmic-os" groups="cosmic-os" />
+
+  <!-- Vendor -->
+  <project path="vendor/codeaurora/commonsys/telephony" name="platform_vendor_codeaurora_commonsys_telephony" remote="cosmic-os" groups="cosmic-os" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth" name="platform_vendor_qcom_opensource_commonsys_bluetooth" remote="cosmic-os" groups="cosmic-os" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="platform_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="cosmic-os" groups="cosmic-os" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_commonsys_system_bt" remote="cosmic-os" groups="cosmic-os" />
+  <project path="vendor/qcom/opensource/interfaces"  name="platform_vendor_qcom_opensource_interfaces" remote="cosmic-os" groups="cosmic-os" />
+  <project path="vendor/cos" name="platform_vendor_cos" remote="cosmic-os" groups="cosmic-os" />
+
+  <!-- Recovery -->
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="cosmic-os" groups="cosmic-os" />
+
+  <!-- AOSP -->
+  <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" remote="aosp"/>
+
 </manifest>

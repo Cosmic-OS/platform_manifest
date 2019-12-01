@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/Cosmic-OS/platform_packages_apps_Settings/pulsar-release/res/drawable/cos_about_logo.png"> 
+<img src="https://raw.githubusercontent.com/Cosmic-OS/platform_manifest/quasar-release/Cosmic-OS%20Header.png"> 
 
 Cosmic-OS
 =========
@@ -12,13 +12,17 @@ Getting Started
 To get started with the Cosmic-OS sources, you'll need to get 
 familiar with [Git and Repo](https://source.android.com/setup/develop.html). 
 
-Use corona-release branch for Android Pie and pulsar-release branch for Android Oreo.
+Branch Info
+-----------
+* quasar-release - Android 10
+* corona-release - Android Pie
+* pulsar-release - Android Oreo
 
 Initialize the Repositories 
 ---------------------------
 
-    repo init -u https://github.com/cos-temp/manifest.git -b q-staging
-    repo sync --no-tags --no-clone-bundle --force-sync -c
+    repo init -u https://github.com/Cosmic-OS/platform_manifest.git -b quasar-release
+    repo sync --no-tags --no-clone-bundle --force-sync -c -j#
 
  -j# -Set jobs by just replacing # with what you wish
 
