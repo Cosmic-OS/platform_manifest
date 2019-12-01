@@ -91,4 +91,7 @@
   <!-- AOSP -->
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" remote="aosp"/>
 
+  <!-- Sdclang -->
+  <project path="vendor/qcom/sdclang-8.0/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-8.0_linux-x86" remote="github" revision="quartz" />
+
 </manifest>
