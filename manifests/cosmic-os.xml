@@ -56,6 +56,7 @@
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="cosmic-os" groups="cosmic-os" />
 
   <!-- Packages -->
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="cosmic-os" groups="cosmic-os" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="cosmic-os" groups="cosmic-os" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="cosmic-os" groups="cosmic-os" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="cosmic-os" groups="cosmic-os" />
