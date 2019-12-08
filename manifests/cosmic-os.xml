@@ -59,7 +59,9 @@
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="cosmic-os" groups="cosmic-os" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="cosmic-os" groups="cosmic-os" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="cosmic-os" groups="cosmic-os" />
+  <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="cosmic-os" groups="cosmic-os" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="cosmic-os" groups="cosmic-os" />
+  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="cosmic-os" groups="cosmic-os" />
 
   <!-- External -->
   <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="cosmic-os" groups="cosmic-os" />
