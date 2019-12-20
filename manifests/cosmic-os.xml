@@ -56,10 +56,20 @@
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="cosmic-os" groups="cosmic-os" />
 
   <!-- Packages -->
+  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="cosmic-os" groups="cosmic-os" />
+  <project path="packages/apps/Calendar" name="platform_packages_apps_Calendar" remote="cosmic-os" groups="cosmic-os" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="cosmic-os" groups="cosmic-os" />
+  <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="cosmic-os" groups="cosmic-os" />
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="cosmic-os" groups="cosmic-os" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="cosmic-os" groups="cosmic-os" />
+  <project path="packages/apps/ExactCalculator" name="platform_packages_apps_Calculator" remote="cosmic-os" groups="cosmic-os" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="cosmic-os" groups="cosmic-os" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="cosmic-os" groups="cosmic-os" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="cosmic-os" groups="cosmic-os" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="cosmic-os" groups="cosmic-os" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="cosmic-os" groups="cosmic-os" />
+  <project path="packages/apps/SnapdragonGallery" name="platform_packages_apps_SnapdragonGallery" remote="cosmic-os" groups="cosmic-os" />
+  <project path="packages/apps/UnifiedEmail" name="platform_packages_apps_UnifiedEmail" remote="cosmic-os" groups="cosmic-os" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="cosmic-os" groups="cosmic-os" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="cosmic-os" groups="cosmic-os" />
 
