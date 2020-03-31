@@ -13,7 +13,7 @@
            fetch="https://github.com/" />
 
   <remote  name="aosp"
-           revision="refs/tags/android-10.0.0_r16"
+           revision="refs/tags/android-10.0.0_r32"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
