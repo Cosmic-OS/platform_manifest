@@ -11,6 +11,9 @@
 
   <remote  name="github"
            fetch="https://github.com/" />
+  
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
 
   <remote  name="aosp"
            revision="refs/tags/android-10.0.0_r32"
