@@ -92,7 +92,6 @@
   <!-- Vendor -->
   <project path="vendor/codeaurora/commonsys/telephony" name="platform_vendor_codeaurora_commonsys_telephony" remote="cosmic-os" groups="cosmic-os" />
   <project path="vendor/qcom/opensource/core-utils" name="platform_vendor_qcom_opensource_core-utils" remote="cosmic-os" groups="cosmic-os" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_commonsys_system_bt" remote="cosmic-os" groups="cosmic-os" />
   <project path="vendor/qcom/opensource/interfaces"  name="platform_vendor_qcom_opensource_interfaces" remote="cosmic-os" groups="cosmic-os" />
   <project path="vendor/qcom/opensource/power"  name="platform_vendor_qcom_opensource_power" remote="cosmic-os" groups="cosmic-os" />
   <project path="vendor/cos" name="platform_vendor_cos" remote="cosmic-os" groups="cosmic-os" />
