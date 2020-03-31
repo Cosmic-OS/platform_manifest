@@ -230,6 +230,7 @@
   <project name="platform/external/libevent" path="external/libevent"/>
   <project name="platform/external/libexif" path="external/libexif"/>
   <project name="platform/external/libffi" path="external/libffi"/>
+  <project name="platform/external/libgav1" path="external/libgav1"/>
   <project name="platform/external/libgsm" path="external/libgsm"/>
   <project name="platform/external/libhevc" path="external/libhevc"/>
   <project name="platform/external/libjpeg-turbo" path="external/libjpeg-turbo"/>
