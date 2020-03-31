@@ -48,8 +48,6 @@
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/vendor/codeaurora/telephony" />
   <remove-project name="platform/vendor/qcom-opensource/audio" />
-  <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
-  <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
   <remove-project name="platform/vendor/qcom-opensource/data-kernel"/>
   <remove-project name="platform/vendor/qcom-opensource/core-utils"/>
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />

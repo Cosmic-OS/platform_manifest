@@ -91,8 +91,6 @@
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/commonsys/telephony" name="platform_vendor_codeaurora_commonsys_telephony" remote="cosmic-os" groups="cosmic-os" />
-  <project path="vendor/qcom/opensource/commonsys/bluetooth" name="platform_vendor_qcom_opensource_commonsys_bluetooth" remote="cosmic-os" groups="cosmic-os" />
-  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="platform_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="cosmic-os" groups="cosmic-os" />
   <project path="vendor/qcom/opensource/core-utils" name="platform_vendor_qcom_opensource_core-utils" remote="cosmic-os" groups="cosmic-os" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_commonsys_system_bt" remote="cosmic-os" groups="cosmic-os" />
   <project path="vendor/qcom/opensource/interfaces"  name="platform_vendor_qcom_opensource_interfaces" remote="cosmic-os" groups="cosmic-os" />
