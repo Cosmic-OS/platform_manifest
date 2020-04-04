@@ -3,7 +3,7 @@
 
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
-          revision="refs/heads/lineage-17.0" />
+          revision="refs/heads/lineage-17.1" />
 
   <!-- Hardware repos -->
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="lineage" />
